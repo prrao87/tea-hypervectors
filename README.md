@@ -50,16 +50,16 @@ source data locally. Ollama embeddings are cached after the first run.
 
 The encoder has to combine several kinds of data without flattening away the
 differences between them. Binding uses element-wise multiplication to associate
-a field's value vector, $\mathbf{V}_f$, with a separate vector for its role,
-$\mathbf{R}_f$:
+a field's value vector, $`\mathbf{V}_f`$, with a separate vector for its role,
+$`\mathbf{R}_f`$:
 
 $$
 \mathbf{X}_f = \mathbf{R}_f \odot \mathbf{V}_f
 $$
 
-For aroma and taste, that gives us
-$\mathbf{A} = \mathbf{R}_{\text{aroma}} \odot \mathbf{V}_{\text{aroma}}$ and
-$\mathbf{T} = \mathbf{R}_{\text{taste}} \odot \mathbf{V}_{\text{taste}}$.
+For aroma and taste, that gives us:
+$`\mathbf{A} = \mathbf{R}_{\text{aroma}} \odot \mathbf{V}_{\text{aroma}}`$ and
+$`\mathbf{T} = \mathbf{R}_{\text{taste}} \odot \mathbf{V}_{\text{taste}}`$.
 This is why "honey" as an aroma doesn't become interchangeable with "honey" as
 a taste. Binding adds structure without adding more dimensions.
 
@@ -75,13 +75,13 @@ $$
 \qquad f_i \in F_{\text{present}}
 $$
 
-Here, $F_{\text{present}}$ contains the fields available for that record, and
-$w_f$ is a weighting factor that controls how much a field contributes. Missing aroma or taste is left
+Here, $`F_{\text{present}}`$ contains the fields available for that record, and
+$`w_f`$ is a weighting factor that controls how much a field contributes. Missing aroma or taste is left
 out of the bundle, while low confidence reduces the weight given to elevation.
 
 The sensory fields need one extra step. We lowercase the aroma and taste text,
 then use `nomic-embed-text` to capture its semantic meaning in 768 dimensions.
-If $\mathbf{e}_f$ is that embedding and $\mathbf{P}$ is our fixed projection
+If $`\mathbf{e}_f`$ is that embedding and $\mathbf{P}$ is our fixed projection
 matrix, we create its bipolar value hypervector with:
 
 $$
@@ -132,7 +132,7 @@ The default encoder uses this weighted bundle:
 These weights are domain-specific choices, not learned truths. Aroma and taste
 carry half of the available weight because they describe the sensory character
 of a tea. Class and oxidation intentionally overlap as strong style signals.
-Elevation can contribute up to 0.15, with $c_E$ representing our confidence in
+Elevation can contribute up to 0.15, with $`c_E`$ representing our confidence in
 the source value. Roast gets only 0.03 because it's a modifier and 144 of the
 166 teas in this dataset have no roast. Giving it more influence would mostly
 reward two teas for sharing the dataset's default value.
@@ -210,7 +210,7 @@ $$
 $$
 
 Bundling a person's interactions creates an experiential memory of the teas
-they've enjoyed. Given the person and the `likes` relationship, we can query
+they've enjoyed. Given the person and the `LIKES` relationship, we can query
 that memory and recover a noisy vector pointing toward relevant teas. Comparing
 it with the known tea vectors cleans up that result into recommendations.
 
