@@ -85,7 +85,7 @@ If $\mathbf{e}_f$ is that embedding and $\mathbf{P}$ is our fixed projection
 matrix, we create its bipolar value hypervector with:
 
 $$
-\mathbf{V}_f = \operatorname{sign}\left(\mathbf{e}_f\mathbf{P}\right),
+\mathbf{V}_f = \mathrm{sign}\left(\mathbf{e}_f\mathbf{P}\right),
 \qquad f \in \{\text{aroma}, \text{taste}\}
 $$
 
@@ -119,15 +119,15 @@ uv run src/verify_geometry.py
 
 The default encoder uses this weighted bundle:
 
-$$
+```math
 \mathbf{H}
 = 0.25\mathbf{A}
-+ 0.25\mathbf{T}
-+ 0.16\mathbf{C}
-+ 0.16\mathbf{O}
-+ 0.03\mathbf{R}
-+ 0.15c_E\mathbf{E}
-$$
+\oplus 0.25\mathbf{T}
+\oplus 0.16\mathbf{C}
+\oplus 0.16\mathbf{O}
+\oplus 0.03\mathbf{R}
+\oplus 0.15c_E\mathbf{E}
+```
 
 These weights are domain-specific choices, not learned truths. Aroma and taste
 carry half of the available weight because they describe the sensory character
