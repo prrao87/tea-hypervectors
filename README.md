@@ -1,5 +1,12 @@
 # Intro to Hyperdimensional Computing (HDC)
 
+Source code for a series of blog posts that explore concepts in Hyperdimensional Computing (HDC).
+
+1. [How a Taiwanese Oolong changed the way I look at tea](https://thedataquarry.com/blog/how-a-taiwanese-oolong-changed-the-way-i-look-at-tea/)
+2. Intro to HDC: coming soon...
+3. Building an HDC encoder: coming soon...
+4. Machine learning in HDC and building a tea recommender: coming soon...
+
 ## Tea, encoded as hypervectors
 
 This repo starts with a small, vetted dataset of 166 loose-leaf teas
