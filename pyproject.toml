@@ -1,16 +1,16 @@
 [project]
-name = "tea"
+name = "tea-hypervectors"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dspy>=3.2.1",
-    "lancedb>=0.34.0",
+    "lancedb>=0.36.0",
     "ollama>=0.6.2",
     "pillow>=11.0.0",
     "pillow-heif>=1.0.0",
-    "polars>=1.0.0",
+    "polars>=1.43.2",
     "pyarrow>=25.0.0",
     "python-dotenv>=1.2.2",
     "tavily-python>=0.7.26",
