@@ -31,7 +31,7 @@ Most HDC encoders are built from three operations:
 
 | Operation | Expression | What it does |
 | --- | --- | --- |
-| Binding | $\mathbf{z} = \mathbf{x} \odot \mathbf{y}$ | Combines two hypervectors through element-wise multiplication to produce a hypervector that's different from its contributors. This lets us _associate_ one concept with another. |
+| Binding | $\mathbf{z} = \mathbf{x} \otimes \mathbf{y}$ | Combines two hypervectors through element-wise multiplication to produce a hypervector that's different from its contributors. This lets us _associate_ one concept with another. |
 | Bundling | $\mathbf{z} = \mathbf{x} \oplus \mathbf{y}$ | Superpositions two hypervectors to produce a representation that remains similar to its contributors. The operation can be repeated and each input can be weighted. |
 | Permutation | $\mathbf{z} = \rho(\mathbf{x})$ | Stores ordered sequences by manipulating a hypervector's coordinates in a repeatable way, letting temporal or sequence order become part of a representation. |
 
@@ -61,12 +61,12 @@ a field's value vector, $`\mathbf{V}_f`$, with a separate vector for its role,
 $`\mathbf{R}_f`$:
 
 $$
-\mathbf{X}_f = \mathbf{R}_f \odot \mathbf{V}_f
+\mathbf{H}_f = \mathbf{R}_f \otimes \mathbf{V}_f
 $$
 
 For aroma and taste, that gives us:
-$`\mathbf{A} = \mathbf{R}_{\text{aroma}} \odot \mathbf{V}_{\text{aroma}}`$ and
-$`\mathbf{T} = \mathbf{R}_{\text{taste}} \odot \mathbf{V}_{\text{taste}}`$.
+$`\mathbf{H}_{\mathrm{aroma}} = \mathbf{R}_{\mathrm{aroma}} \otimes \mathbf{V}_{\mathrm{aroma}}`$ and
+$`\mathbf{H}_{\mathrm{taste}} = \mathbf{R}_{\mathrm{taste}} \otimes \mathbf{V}_{\mathrm{taste}}`$.
 This is why "honey" as an aroma doesn't become interchangeable with "honey" as
 a taste. Binding adds structure without adding more dimensions.
 
@@ -74,11 +74,11 @@ Bundling uses addition to collect the bound components into one representation
 of the whole tea:
 
 $$
-\mathbf{H}
-= w_{f_1}\mathbf{X}_{f_1}
-\oplus w_{f_2}\mathbf{X}_{f_2}
+\mathbf{H}_{\mathrm{tea}}
+= w_{f_1}\mathbf{H}_{f_1}
+\oplus w_{f_2}\mathbf{H}_{f_2}
 \oplus \cdots
-\oplus w_{f_n}\mathbf{X}_{f_n},
+\oplus w_{f_n}\mathbf{H}_{f_n},
 \qquad f_i \in F_{\text{present}}
 $$
 
@@ -127,19 +127,21 @@ uv run src/verify_geometry.py
 The default encoder uses this weighted bundle:
 
 ```math
-\mathbf{H}
-= 0.25\mathbf{A}
-\oplus 0.25\mathbf{T}
-\oplus 0.16\mathbf{C}
-\oplus 0.16\mathbf{O}
-\oplus 0.03\mathbf{R}
-\oplus 0.15c_E\mathbf{E}
+\begin{aligned}
+\mathbf{H}_{\mathrm{tea}} ={}&
+0.25\mathbf{H}_{\mathrm{aroma}}
+\oplus 0.25\mathbf{H}_{\mathrm{taste}}
+\oplus 0.16\mathbf{H}_{\mathrm{class}} \\
+&{}\oplus 0.16\mathbf{H}_{\mathrm{oxidation}}
+\oplus 0.03\mathbf{H}_{\mathrm{roast}}
+\oplus 0.15c_{\mathrm{elevation}}\mathbf{H}_{\mathrm{elevation}}
+\end{aligned}
 ```
 
 These weights are domain-specific choices, not learned truths. Aroma and taste
 carry half of the available weight because they describe the sensory character
 of a tea. Class and oxidation intentionally overlap as strong style signals.
-Elevation can contribute up to 0.15, with $`c_E`$ representing our confidence in
+Elevation can contribute up to 0.15, with $`c_{\mathrm{elevation}}`$ representing our confidence in
 the source value. Roast gets only 0.03 because it's a modifier and 144 of the
 166 teas in this dataset have no roast. Giving it more influence would mostly
 reward two teas for sharing the dataset's default value.
@@ -212,8 +214,8 @@ vector:
 $$
 \mathbf{M}
 = \mathbf{P}_{\text{person}}
-\odot \mathbf{R}_{\text{likes}}
-\odot \mathbf{T}_{\text{tea}}
+\otimes \mathbf{R}_{\text{likes}}
+\otimes \mathbf{T}_{\text{tea}}
 $$
 
 Bundling a person's interactions creates an experiential memory of the teas
