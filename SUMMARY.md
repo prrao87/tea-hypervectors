@@ -80,10 +80,10 @@ The encoder does not pretend that every field is text:
 | Roast | TorchHD level vector | Ordered: none, light, medium, heavy |
 | Elevation | 61 level vectors from 0–3,000 m | Ordered at 50 m resolution |
 
-Aroma and taste phrases are lowercased, normalized, deduplicated, and sorted.
-Each phrase is embedded with `nomic-embed-text`; phrase vectors are averaged and
-L2-normalized. A fixed Rademacher projection maps the 768-dimensional semantic
-direction into 10,000 dimensions:
+Aroma and taste phrases are lowercased, deduplicated, and sorted. Each phrase is
+embedded with `nomic-embed-text`, then the phrase vectors are averaged. A fixed
+Rademacher projection maps the 768-dimensional semantic direction into 10,000
+dimensions:
 
 $$
 \mathbf{V}_f = \mathrm{sign}(\mathbf{e}_f\mathbf{P})
@@ -197,17 +197,17 @@ bit round-trips.
 ## The clearest similarity example
 
 Yunnan Dian Hong retrieves Assam Doomni as its nearest neighbour with cosine
-similarity 0.8484. The score decomposes into:
+similarity 0.8487. The score decomposes into:
 
 | Component | Contribution |
 | --- | ---: |
-| Aroma | +0.2685 |
-| Taste | +0.2551 |
-| Class | +0.1348 |
-| Oxidation | +0.1322 |
+| Aroma | +0.2684 |
+| Taste | +0.2553 |
+| Class | +0.1349 |
+| Oxidation | +0.1321 |
 | Roast | +0.0054 |
-| Elevation | +0.0524 |
-| **Total** | **+0.8484** |
+| Elevation | +0.0525 |
+| **Total** | **+0.8487** |
 
 This was a lovely result because the teas come from different countries, yet
 share fruity, malty, caramel-like aromas and smooth, velvety tastes. The
@@ -409,4 +409,3 @@ should not be described as already powering the recommender.
 
 The public source dataset is available in Lance format at
 <https://huggingface.co/datasets/prrao87/tea-hypervectors>.
-

@@ -86,10 +86,11 @@ Here, $`F_{\text{present}}`$ contains the fields available for that record, and
 $`w_f`$ is a weighting factor that controls how much a field contributes. Missing aroma or taste is left
 out of the bundle, while low confidence reduces the weight given to elevation.
 
-The sensory fields need one extra step. We lowercase the aroma and taste text,
-then use `nomic-embed-text` to capture its semantic meaning in 768 dimensions.
-If $`\mathbf{e}_f`$ is that embedding and $\mathbf{P}$ is our fixed projection
-matrix, we create its bipolar value hypervector with:
+The sensory fields need one extra step. We lowercase, deduplicate, and sort the
+aroma and taste phrases, embed each phrase with `nomic-embed-text`, then average
+the 768-dimensional embeddings. If $`\mathbf{e}_f`$ is that mean and
+$\mathbf{P}$ is our fixed projection matrix, we create its bipolar value
+hypervector with:
 
 $$
 \mathbf{V}_f = \mathrm{sign}\left(\mathbf{e}_f\mathbf{P}\right),
@@ -177,30 +178,30 @@ Expected output, abridged:
 Seed: Yunnan Dian Hong  (id=1314971975789)
 
 similarity  class    title
-    0.8484  black    Assam Doomni
-    0.8292  black    Da Xue Shan Hong Cha
-    0.8289  black    Darjeeling Namring « Tippy Muscatel » 2nd Flush
+    0.8487  black    Assam Doomni
+    0.8294  black    Da Xue Shan Hong Cha
+    0.8290  black    Darjeeling Namring « Tippy Muscatel » 2nd Flush
 
-Why 'Assam Doomni' scored 0.8484:
-  aroma      +0.2685
-  taste      +0.2551
-  class      +0.1348
-  oxidation  +0.1322
+Why 'Assam Doomni' scored 0.8487:
+  aroma      +0.2684
+  taste      +0.2553
+  class      +0.1349
+  oxidation  +0.1321
   roast      +0.0054
-  elevation  +0.0524
-  total      +0.8484
+  elevation  +0.0525
+  total      +0.8487
 ```
 
 Assam Doomni comes first even though it is grown in India rather than China.
 The two teas share fruity, malty, caramel-like aromas and a smooth, velvety
-taste. Aroma and taste contribute 0.5236 of the final score, while their shared
+taste. Aroma and taste contribute 0.5237 of the final score, while their shared
 black class and high oxidation add another 0.2670. Roast contributes only
-0.0054 because we deliberately gave it little influence. Elevation adds 0.0524:
+0.0054 because we deliberately gave it little influence. Elevation adds 0.0525:
 Yunnan Dian Hong is encoded at 1,950 metres with 0.8 confidence, while Assam
 Doomni is encoded at 1,600 metres with 0.6 confidence.
 
 These contributions come directly from the weighted bundle and add back up to
-the cosine score of 0.8484. They show exactly which parts of Assam Doomni's
+the cosine score of 0.8487. They show exactly which parts of Assam Doomni's
 hypervector made it the closest match.
 
 ## From similarity to associative memory

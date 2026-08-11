@@ -35,10 +35,8 @@ def canonicalize(phrases: Iterable[str] | None) -> tuple[str, ...]:
 class PhraseEmbedder:
     """Phrase-level Nomic embeddings, cached on disk.
 
-    Each phrase is embedded on its own and the field embedding is the mean of
-    the phrase vectors. Embedding the joined list instead would give teas with
-    longer descriptor lists a different magnitude and would make the result
-    depend on phrase order.
+    Each phrase is embedded on its own and the field embedding is their mean.
+    This keeps the result independent of phrase order and list length.
     """
 
     def __init__(self, manifest: EncoderManifest, cache_path: Path) -> None:
@@ -91,18 +89,11 @@ class PhraseEmbedder:
     def phrase_embedding(self, phrase: str) -> np.ndarray:
         if phrase not in self._cache:
             self.warm([phrase])
-        return _l2_normalize(np.asarray(self._cache[phrase], dtype=np.float32))
+        return np.asarray(self._cache[phrase], dtype=np.float32)
 
     def field_embedding(self, phrases: Sequence[str]) -> np.ndarray | None:
-        """Mean of the L2-normalized phrase vectors, renormalized. None if empty."""
+        """Mean of the phrase vectors. None if empty."""
         if not phrases:
             return None
         stacked = np.stack([self.phrase_embedding(phrase) for phrase in phrases])
-        return _l2_normalize(stacked.mean(axis=0))
-
-
-def _l2_normalize(vector: np.ndarray) -> np.ndarray:
-    norm = float(np.linalg.norm(vector))
-    if norm == 0.0:
-        raise ValueError("Cannot L2-normalize a zero embedding")
-    return vector / norm
+        return stacked.mean(axis=0)
