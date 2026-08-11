@@ -80,10 +80,10 @@ The encoder does not pretend that every field is text:
 | Roast | TorchHD level vector | Ordered: none, light, medium, heavy |
 | Elevation | 61 level vectors from 0–3,000 m | Ordered at 50 m resolution |
 
-Aroma and taste phrases are lowercased, normalized, deduplicated, and sorted.
-Each phrase is embedded with `nomic-embed-text`; phrase vectors are averaged and
-L2-normalized. A fixed Rademacher projection maps the 768-dimensional semantic
-direction into 10,000 dimensions:
+Aroma and taste phrases are lowercased, deduplicated, and sorted. Each phrase is
+embedded with `nomic-embed-text`, then the phrase vectors are averaged. A fixed
+Rademacher projection maps the 768-dimensional semantic direction into 10,000
+dimensions:
 
 $$
 \mathbf{V}_f = \mathrm{sign}(\mathbf{e}_f\mathbf{P})
@@ -409,4 +409,3 @@ should not be described as already powering the recommender.
 
 The public source dataset is available in Lance format at
 <https://huggingface.co/datasets/prrao87/tea-hypervectors>.
-
