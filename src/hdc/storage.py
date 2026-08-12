@@ -6,8 +6,9 @@ precision per coordinate, which is far below the resolution at which cosine
 rankings change. It is not a lossless round-trip, so nothing downstream should
 assume a reloaded vector is bit-identical to the one that was written.
 
-Everything TorchHD touches is float32. The narrowing happens immediately before
-the write and is widened again immediately after the read.
+Everything TorchHD touches is float32, because it doesn't support float16
+operations. The narrowing happens immediately before the write and is widened
+again immediately after the read.
 """
 
 from __future__ import annotations

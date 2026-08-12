@@ -20,6 +20,10 @@ def rademacher_matrix(manifest: EncoderManifest, hv: HypervectorFactory) -> torc
     """A fixed (768, 10000) matrix of -1 and +1 drawn from the manifest seed."""
     generator = torch.Generator(device="cpu")
     generator.manual_seed(hv.seed_for("projection", "sensory"))
+
+    # `torch.randint` excludes its upper bound, so [0, 2) gives equally likely
+    # 0 and 1 values. Multiplying by 2 and subtracting 1 maps them to -1 and +1
+    # without introducing zeros into the Rademacher matrix.
     draws = torch.randint(
         0,
         2,

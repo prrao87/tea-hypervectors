@@ -75,3 +75,5 @@ data/extracted/elevation_search_cache.json.tmp
 # HDC derived artifacts
 data/tea-hv-db/
 data/cache/
+
+tmp
