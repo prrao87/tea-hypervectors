@@ -1,0 +1,4489 @@
+{
+  "schema_version": 1,
+  "source": {
+    "catalogue_size": 166,
+    "hypervector_dimensions": 10000,
+    "projection": "PCA",
+    "projection_dimensions": 3,
+    "explained_variance_ratio": [
+      0.25902624,
+      0.1077542,
+      0.09156647
+    ],
+    "ranking_space": "original normalized hypervectors",
+    "negative_penalty": 0.25
+  },
+  "palette": {
+    "classes": [
+      {
+        "class": "green",
+        "label": "GREEN",
+        "color": "#54D68B"
+      },
+      {
+        "class": "white",
+        "label": "WHITE",
+        "color": "#F2EDE1"
+      },
+      {
+        "class": "yellow",
+        "label": "YELLOW",
+        "color": "#F4CB55"
+      },
+      {
+        "class": "black",
+        "label": "BLACK",
+        "color": "#F05D6C"
+      },
+      {
+        "class": "oolong",
+        "label": "OOLONG",
+        "color": "#F2934C"
+      }
+    ],
+    "signals": {
+      "positive": "#74E5D0",
+      "negative": "#FF6B81",
+      "liked": "#E5FAF5",
+      "neutral": "#83949C",
+      "recommendation": "#EAF3F2"
+    }
+  },
+  "teas": [
+    {
+      "id": "9378918800",
+      "title": "Ali Shan",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Shi Tou",
+      "oxidation": "medium",
+      "roast": "none",
+      "aroma": [
+        "LEMONGRASS",
+        "WHITE PEACH",
+        "LAVENDER",
+        "intoxicating floral aromas reminiscent of lavender and hyacinth",
+        "orchard fruits",
+        "citrus peel",
+        "lemongrass notes"
+      ],
+      "taste": [
+        "full and buttery texture"
+      ],
+      "position": [
+        0.11815264,
+        0.36287948,
+        -0.15261614
+      ]
+    },
+    {
+      "id": "9278958096",
+      "title": "Ali Shan - Roasted",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Ali Shan",
+      "oxidation": "low",
+      "roast": "light",
+      "aroma": [
+        "honey",
+        "caramel",
+        "butter",
+        "opulent flowers",
+        "exotic fruits"
+      ],
+      "taste": [],
+      "position": [
+        -0.16968004,
+        0.18977757,
+        -0.47513109
+      ]
+    },
+    {
+      "id": "1317118378093",
+      "title": "Bai Hao",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Beipu",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "muscatel grapes",
+        "flowers",
+        "honey",
+        "baked apples and pears",
+        "sweet spices",
+        "summer honey",
+        "white flowers"
+      ],
+      "taste": [
+        "almost syrupy texture",
+        "fruity finish is rich and heady"
+      ],
+      "position": [
+        0.28079212,
+        0.23188923,
+        -0.07182971
+      ]
+    },
+    {
+      "id": "6559532089453",
+      "title": "Bai Ya Qi Lan",
+      "class": "oolong",
+      "country": "China",
+      "region": "Anxi",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "delicate white flowers",
+        "orchard fruit",
+        "sweet",
+        "apple blossom",
+        "melted butter",
+        "fresh bread",
+        "Bartlett pear",
+        "green mango",
+        "jujube"
+      ],
+      "taste": [
+        "lingering aftertaste"
+      ],
+      "position": [
+        -0.07977875,
+        0.37089971,
+        -0.09209577
+      ]
+    },
+    {
+      "id": "9378918672",
+      "title": "Chilai Shan",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Chilai Shan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "wildflowers",
+        "clover honey",
+        "mandarine oranges",
+        "bamboo shoots",
+        "fresh-baked bread",
+        "melted butter"
+      ],
+      "taste": [],
+      "position": [
+        -0.20114803,
+        0.18418677,
+        -0.47418916
+      ]
+    },
+    {
+      "id": "1317117395053",
+      "title": "Da Hong Pao",
+      "class": "oolong",
+      "country": "China",
+      "region": "Wuyi Mountains",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "mineral",
+        "rocky",
+        "woody",
+        "acidic",
+        "caramel",
+        "sorrel",
+        "exotic wood",
+        "red fruit"
+      ],
+      "taste": [
+        "heartwarming, stick-to-your-ribs"
+      ],
+      "position": [
+        0.11254801,
+        0.28320348,
+        -0.1883616
+      ]
+    },
+    {
+      "id": "9378918288",
+      "title": "Da Yu Ling",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Da Yu Ling",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "apple blossom",
+        "honeysuckle",
+        "freshly cut grass",
+        "celery",
+        "dulce de leche",
+        "freshly churned butter",
+        "shortbread",
+        "fresh apricot",
+        "wild berries",
+        "lemon zest"
+      ],
+      "taste": [],
+      "position": [
+        -0.17308405,
+        0.21443602,
+        -0.47063273
+      ]
+    },
+    {
+      "id": "9378918224",
+      "title": "Dong Ding",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Dong Ding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral",
+        "white flowers",
+        "crème fraîche",
+        "butter",
+        "lush grass",
+        "moss"
+      ],
+      "taste": [
+        "soft and light"
+      ],
+      "position": [
+        -0.07064445,
+        0.35183176,
+        -0.07383811
+      ]
+    },
+    {
+      "id": "9378918096",
+      "title": "Dong Ding - Charcoal roasted",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Mount Dong Ding",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "Caramel cream",
+        "Exotic Fruits",
+        "Coconut sugar",
+        "toffee",
+        "grilled coconut",
+        "toasted peanut",
+        "almond",
+        "exotic fruits",
+        "fig",
+        "oak casks",
+        "dark maple syrup",
+        "light honey floral note"
+      ],
+      "taste": [
+        "enhanced richness and depth",
+        "A lovely long aftertaste"
+      ],
+      "position": [
+        0.12065196,
+        0.36617091,
+        -0.137108
+      ]
+    },
+    {
+      "id": "9435626256",
+      "title": "Dong Ding - Traditional Roast",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "brioche",
+        "honey",
+        "candied fruit",
+        "summer flowers"
+      ],
+      "taste": [
+        "sticks to your ribs and warms you from the inside out"
+      ],
+      "position": [
+        0.12327868,
+        0.33789802,
+        -0.1980426
+      ]
+    },
+    {
+      "id": "4751679914093",
+      "title": "Fo Shou - roasted -",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Wen Shan ranges",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "naturally sweet",
+        "honeyed cereals",
+        "cooked pear",
+        "roasted almonds",
+        "autumn flowers",
+        "minerality"
+      ],
+      "taste": [
+        "suave",
+        "nice minerality"
+      ],
+      "position": [
+        0.13277496,
+        0.38099873,
+        -0.13487621
+      ]
+    },
+    {
+      "id": "9435626320",
+      "title": "Gabacha",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "medium",
+      "roast": "none",
+      "aroma": [
+        "baked apple",
+        "dried cranberry",
+        "cinnamon",
+        "exotic wood",
+        "naturally sweet"
+      ],
+      "taste": [
+        "without the slightest astringency"
+      ],
+      "position": [
+        0.12291972,
+        0.33865607,
+        -0.17554422
+      ]
+    },
+    {
+      "id": "8157542219885",
+      "title": "Gabacha black (T18)",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Sun Moon Lake",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "stewed apple",
+        "dried fruit",
+        "woodier notes",
+        "toasted pecans",
+        "soft molasses",
+        "menthol freshness"
+      ],
+      "taste": [
+        "mouth-watering",
+        "menthol freshness"
+      ],
+      "position": [
+        0.29287875,
+        0.22998959,
+        -0.09230703
+      ]
+    },
+    {
+      "id": "9193748368",
+      "title": "Gui Fei",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Dong Ding",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "summer honey",
+        "hot spices",
+        "conifers",
+        "spring flowers",
+        "candied pineapple",
+        "golden grape",
+        "mango",
+        "muscat",
+        "fir needles"
+      ],
+      "taste": [],
+      "position": [
+        0.04434256,
+        0.15300924,
+        -0.5589453
+      ]
+    },
+    {
+      "id": "9278957840",
+      "title": "Hong Xiang",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "the perfume of the high mountains",
+        "coconut",
+        "exotic fruits",
+        "fresh butter",
+        "white flowers",
+        "ripe apricot"
+      ],
+      "taste": [
+        "persistence of beautiful purity"
+      ],
+      "position": [
+        -0.07015757,
+        0.36289373,
+        -0.11211011
+      ]
+    },
+    {
+      "id": "7445432074349",
+      "title": "Jin Guan Yin",
+      "class": "oolong",
+      "country": "China",
+      "region": "Anxi, Fujian",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "sweet",
+        "opulent floral notes",
+        "intoxicating fruity nuances",
+        "apple",
+        "linden blossoms",
+        "fresh nectarine",
+        "bee pollen"
+      ],
+      "taste": [],
+      "position": [
+        -0.20453146,
+        0.12762196,
+        -0.46561229
+      ]
+    },
+    {
+      "id": "1317663703149",
+      "title": "Jin Xuan",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "buttery",
+        "floral springtime",
+        "crème fraîche",
+        "melted butter",
+        "granola drizzled with honey"
+      ],
+      "taste": [
+        "smooth texture"
+      ],
+      "position": [
+        -0.05915736,
+        0.3650203,
+        -0.07138395
+      ]
+    },
+    {
+      "id": "9378917968",
+      "title": "Li Shan",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Li Shan",
+      "oxidation": "medium",
+      "roast": "none",
+      "aroma": [
+        "peach",
+        "pineapple",
+        "green apple",
+        "peony",
+        "daffodil",
+        "lush grass",
+        "sorrel",
+        "cocoa- and coconut-butter"
+      ],
+      "taste": [],
+      "position": [
+        0.05186429,
+        0.19601192,
+        -0.55868268
+      ]
+    },
+    {
+      "id": "9435624080",
+      "title": "Mi Lan Xiang",
+      "class": "oolong",
+      "country": "China",
+      "region": "Feng Huang mountains, Guangdong",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "honey orchid fragrance",
+        "honey",
+        "clementine",
+        "pineapple",
+        "lychee",
+        "white flower",
+        "butter"
+      ],
+      "taste": [
+        "most pleasant lingering aftertaste"
+      ],
+      "position": [
+        0.12891558,
+        0.38827032,
+        -0.16838802
+      ]
+    },
+    {
+      "id": "8169681649773",
+      "title": "Mi Lan Xiang 2024 (-20%)",
+      "class": "oolong",
+      "country": "China",
+      "region": "Feng Huang mountains",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "honey orchid fragrance",
+        "honey",
+        "clementine",
+        "pineapple",
+        "lychee",
+        "white flower",
+        "browned butter"
+      ],
+      "taste": [
+        "most pleasant aromatic finish"
+      ],
+      "position": [
+        0.10524575,
+        0.33887047,
+        -0.15892
+      ]
+    },
+    {
+      "id": "6871731142765",
+      "title": "Mi Lan Xiang Lao Cong",
+      "class": "oolong",
+      "country": "China",
+      "region": "Mount Wudong",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "exotic fruits",
+        "grilled almonds",
+        "pink grapefruit",
+        "lychee",
+        "peach compote",
+        "floral hint",
+        "scent of freesia",
+        "exotic wood",
+        "fruit paste"
+      ],
+      "taste": [
+        "supple but lively",
+        "long and sweet persistence"
+      ],
+      "position": [
+        0.13700522,
+        0.37499496,
+        -0.15797912
+      ]
+    },
+    {
+      "id": "9378917904",
+      "title": "Muzha Tie Guan Yin",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Muzha",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "fruity",
+        "woody",
+        "prune",
+        "date",
+        "raisin",
+        "autumn honey",
+        "caramel"
+      ],
+      "taste": [
+        "soft infusion"
+      ],
+      "position": [
+        0.12513366,
+        0.36417395,
+        -0.17553586
+      ]
+    },
+    {
+      "id": "9297811152",
+      "title": "Pinglin Bao Zhong",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Wen Shan mountains",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "plant-like",
+        "herbal",
+        "spring flowers",
+        "melted butter",
+        "exotic fruit",
+        "sweets"
+      ],
+      "taste": [
+        "velvety texture"
+      ],
+      "position": [
+        -0.08353154,
+        0.37616783,
+        -0.05477049
+      ]
+    },
+    {
+      "id": "1317664882797",
+      "title": "Pinglin Bao Zhong 1992",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Pinglin",
+      "oxidation": "medium",
+      "roast": "none",
+      "aroma": [
+        "caramel",
+        "walnuts",
+        "beet stem",
+        "old leather",
+        "pipe tobacco",
+        "clay",
+        "exotic wood"
+      ],
+      "taste": [],
+      "position": [
+        0.04938204,
+        0.16258536,
+        -0.55717629
+      ]
+    },
+    {
+      "id": "9435625680",
+      "title": "Rou Gui",
+      "class": "oolong",
+      "country": "China",
+      "region": "China",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "pronounced roasting notes",
+        "woody",
+        "caramelized sugar",
+        "dark maple syrup",
+        "autumn honey",
+        "cinnamon",
+        "nutmeg",
+        "red berries jam"
+      ],
+      "taste": [],
+      "position": [
+        0.04578085,
+        0.16759062,
+        -0.5668354
+      ]
+    },
+    {
+      "id": "1317670355053",
+      "title": "Shan Lin Shi",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Lin Shi mountain",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "poundcake",
+        "goldenrod honey",
+        "candied pineapple",
+        "cocoa butter",
+        "citrusy-floral"
+      ],
+      "taste": [
+        "remarkably velvety",
+        "slight acidity",
+        "citrusy-floral finish"
+      ],
+      "position": [
+        -0.04358361,
+        0.41907781,
+        -0.04773711
+      ]
+    },
+    {
+      "id": "9435624208",
+      "title": "Shui Xian Lao Cong",
+      "class": "oolong",
+      "country": "China",
+      "region": "Wuyi Mountains",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "narcissus",
+        "floral",
+        "herbaceous",
+        "biscuit",
+        "roasted butter",
+        "fresh corn",
+        "peach",
+        "fig",
+        "honeyed",
+        "fresh artichoke"
+      ],
+      "taste": [],
+      "position": [
+        0.01377293,
+        0.10786311,
+        -0.53559041
+      ]
+    },
+    {
+      "id": "9378918736",
+      "title": "Si Ji Chun",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Nantou",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral",
+        "lilac",
+        "hyacinth",
+        "slightly sweet"
+      ],
+      "taste": [
+        "refreshing"
+      ],
+      "position": [
+        -0.0960921,
+        0.29957739,
+        -0.08034866
+      ]
+    },
+    {
+      "id": "7379863896173",
+      "title": "Si Ji Chun (lightly roasted)",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "vegetal",
+        "floral",
+        "honeyed",
+        "brioche"
+      ],
+      "taste": [
+        "comforting and velvety aspect"
+      ],
+      "position": [
+        0.11320376,
+        0.35666668,
+        -0.15051003
+      ]
+    },
+    {
+      "id": "6545918001261",
+      "title": "Si Ji Chun -charcoal roasted-",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "medium",
+      "roast": "heavy",
+      "aroma": [
+        "floral opulence",
+        "fruit paste",
+        "caramel",
+        "candied flower",
+        "quince",
+        "apricot jam",
+        "brioche",
+        "butterscotch"
+      ],
+      "taste": [
+        "sweet"
+      ],
+      "position": [
+        0.12931904,
+        0.368108,
+        -0.163133
+      ]
+    },
+    {
+      "id": "9354308880",
+      "title": "Taitung Hong Oolong",
+      "class": "oolong",
+      "country": "Taiwan",
+      "region": "Taitung",
+      "oxidation": "high",
+      "roast": "heavy",
+      "aroma": [
+        "red fruit jam",
+        "cookies",
+        "baked fruit",
+        "ripe peaches",
+        "honey",
+        "muscatel grapes",
+        "cocoa",
+        "sweets"
+      ],
+      "taste": [
+        "not at all bitter"
+      ],
+      "position": [
+        0.2857917,
+        0.19406632,
+        -0.1410958
+      ]
+    },
+    {
+      "id": "1317118181485",
+      "title": "Takachiho Koshoun",
+      "class": "oolong",
+      "country": "Japan",
+      "region": "Mount Aso",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "Vegetable",
+        "flowery",
+        "buttery",
+        "freshness",
+        "natural sweetness"
+      ],
+      "taste": [
+        "buttery",
+        "natural sweetness",
+        "sweetness"
+      ],
+      "position": [
+        -0.0584121,
+        0.40656048,
+        -0.04892966
+      ]
+    },
+    {
+      "id": "7677875880045",
+      "title": "Tie Guan Yin",
+      "class": "oolong",
+      "country": "China",
+      "region": "Anxi, Gande village",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral",
+        "vegetal",
+        "delicately sweet",
+        "honeysuckle",
+        "white flowers",
+        "minerality",
+        "freshly cut white mushrooms",
+        "pear",
+        "yellow plum"
+      ],
+      "taste": [
+        "smooth",
+        "beautiful, complex, and fragrant finish"
+      ],
+      "position": [
+        -0.05064133,
+        0.41570532,
+        -0.03714025
+      ]
+    },
+    {
+      "id": "9435624528",
+      "title": "Tie Guan Yin - traditional",
+      "class": "oolong",
+      "country": "China",
+      "region": "Fujian",
+      "oxidation": "low",
+      "roast": "light",
+      "aroma": [
+        "brown candy",
+        "sweet almonds",
+        "plum compote",
+        "golden apple",
+        "browned butter",
+        "clover flower"
+      ],
+      "taste": [
+        "gourmet and delicately sweet finish",
+        "long aftertaste with finesse"
+      ],
+      "position": [
+        -0.0699819,
+        0.37224379,
+        -0.0423905
+      ]
+    },
+    {
+      "id": "6733265404013",
+      "title": "Ya Shi Xiang",
+      "class": "oolong",
+      "country": "China",
+      "region": "Feng Huang mountains, Ping Keng Tou village",
+      "oxidation": "medium",
+      "roast": "light",
+      "aroma": [
+        "butterscotch",
+        "grilled sweet almond",
+        "very ripe pineapple",
+        "white flowers",
+        "honey",
+        "nectarine",
+        "shortbread biscuits",
+        "sweet",
+        "flower nectar",
+        "exotic fruits"
+      ],
+      "taste": [
+        "long finish of flower nectar and exotic fruits"
+      ],
+      "position": [
+        0.12997477,
+        0.36788347,
+        -0.18584555
+      ]
+    },
+    {
+      "id": "9029052432",
+      "title": "Anji Bai Cha",
+      "class": "green",
+      "country": "China",
+      "region": "Anji",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "delicate white flowers",
+        "asparagus",
+        "bamboo shoots",
+        "lamb’s lettuce",
+        "cedar",
+        "toasted pine nuts",
+        "flower sap",
+        "candied lemon"
+      ],
+      "taste": [
+        "luminous and refreshing aftertaste of flower sap and candied lemon"
+      ],
+      "position": [
+        -0.28024507,
+        -0.0018407,
+        0.18452144
+      ]
+    },
+    {
+      "id": "1317106253933",
+      "title": "Bi Luo Chun",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fern leaves",
+        "spinach",
+        "smoke",
+        "orchid",
+        "chestnut",
+        "dark chocolate"
+      ],
+      "taste": [],
+      "position": [
+        -0.42419577,
+        -0.23630376,
+        -0.1408044
+      ]
+    },
+    {
+      "id": "9435624784",
+      "title": "Bocha Karigane",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "brothy",
+        "asparagus",
+        "roast chicken",
+        "corn",
+        "nut butter",
+        "rich bouillon"
+      ],
+      "taste": [
+        "thick-textured"
+      ],
+      "position": [
+        -0.27869022,
+        -0.02350139,
+        0.19558793
+      ]
+    },
+    {
+      "id": "7652634296429",
+      "title": "Cherry and Kombucha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "cherry",
+        "cinnamon",
+        "dried kombucha"
+      ],
+      "taste": [],
+      "position": [
+        -0.43037263,
+        -0.28090015,
+        -0.1323805
+      ]
+    },
+    {
+      "id": "7018259808365",
+      "title": "Enshi Yu Lu",
+      "class": "green",
+      "country": "China",
+      "region": "Enshi",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "slightly sweet vegetal notes",
+        "bamboo",
+        "bok choy",
+        "chestnut",
+        "delicate floral nuances",
+        "fruity hint",
+        "pear",
+        "comforting buttery touch"
+      ],
+      "taste": [
+        "refreshing",
+        "comforting buttery touch"
+      ],
+      "position": [
+        -0.25756624,
+        0.0447654,
+        0.19674765
+      ]
+    },
+    {
+      "id": "9435626384",
+      "title": "Fuding Mao Jian",
+      "class": "green",
+      "country": "China",
+      "region": "Fuding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "plant-like",
+        "fruity",
+        "cooked spinach",
+        "corn",
+        "arugula",
+        "basil",
+        "exotic fruit",
+        "mango",
+        "passion fruit",
+        "strawberry jam"
+      ],
+      "taste": [
+        "invigorating, mouth-watering",
+        "wonderfully delicious finish"
+      ],
+      "position": [
+        -0.2469902,
+        0.06771933,
+        0.19020042
+      ]
+    },
+    {
+      "id": "7017030910061",
+      "title": "Fukamushicha Asatsuyu",
+      "class": "green",
+      "country": "Japan",
+      "region": "Chiran",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "green-leafed vegetables",
+        "dark chocolate",
+        "nori seaweed",
+        "freshly steamed spinach",
+        "forest moss",
+        "cocoa",
+        "fresh nuts",
+        "buttered beans",
+        "delicate floral/fruity hints"
+      ],
+      "taste": [
+        "sweet, velvety"
+      ],
+      "position": [
+        -0.2822046,
+        -0.00684935,
+        0.22016886
+      ]
+    },
+    {
+      "id": "6570889871469",
+      "title": "Fukamushicha Yame",
+      "class": "green",
+      "country": "Japan",
+      "region": "Yame",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetal notes of fresh spinach and snow peas",
+        "fruity nuance reminiscent of raspberry",
+        "dark chocolate",
+        "toasted sesame"
+      ],
+      "taste": [
+        "full, tasty and velvety",
+        "rich, creamy and refreshing"
+      ],
+      "position": [
+        -0.27634954,
+        0.00974022,
+        0.23953472
+      ]
+    },
+    {
+      "id": "9435624848",
+      "title": "Genmaicha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "toasted whole grains",
+        "popcorn",
+        "slightly sweet vegetal"
+      ],
+      "taste": [],
+      "position": [
+        -0.43555906,
+        -0.27930254,
+        -0.11950176
+      ]
+    },
+    {
+      "id": "9435626128",
+      "title": "Genmaicha Sencha-matcha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "popcorn",
+        "brown rice",
+        "refreshing vegetal flavour"
+      ],
+      "taste": [],
+      "position": [
+        -0.43979466,
+        -0.28321862,
+        -0.12040759
+      ]
+    },
+    {
+      "id": "1317706694765",
+      "title": "Ginger & lemon myrtle",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "perfumed",
+        "ginger",
+        "lemongrass",
+        "licorice",
+        "naturally sweet"
+      ],
+      "taste": [
+        "mouth-watering",
+        "naturally sweet taste"
+      ],
+      "position": [
+        -0.2576021,
+        0.04848685,
+        0.19708712
+      ]
+    },
+    {
+      "id": "9435625168",
+      "title": "Gunpowder",
+      "class": "green",
+      "country": "China",
+      "region": "Fujian province",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "herbacious",
+        "fruity",
+        "smoky"
+      ],
+      "taste": [],
+      "position": [
+        -0.43438268,
+        -0.27338472,
+        -0.12528396
+      ]
+    },
+    {
+      "id": "1317111234669",
+      "title": "Gyokuro Gancho",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "spinach",
+        "aromatic plant",
+        "fresh seaweed",
+        "small red fruit"
+      ],
+      "taste": [
+        "Suave and delicate."
+      ],
+      "position": [
+        -0.28206292,
+        -0.01591116,
+        0.19430643
+      ]
+    },
+    {
+      "id": "1317111726189",
+      "title": "Gyokuro Kagoshima",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kagoshima Prefecture",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "marine accents",
+        "lamb's lettuce",
+        "seaweed",
+        "vegetable broth",
+        "field berries"
+      ],
+      "taste": [
+        "velvety texture"
+      ],
+      "position": [
+        -0.28702557,
+        0.00057789,
+        0.22265255
+      ]
+    },
+    {
+      "id": "9193745040",
+      "title": "Gyokuro Kanro",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetable notes",
+        "spinach",
+        "lemongrass",
+        "pistachio",
+        "maize",
+        "slightly iodised touch",
+        "naturally sweet",
+        "fruit",
+        "zest"
+      ],
+      "taste": [
+        "smooth texture",
+        "finishing off with a slightly iodised touch"
+      ],
+      "position": [
+        -0.27328846,
+        0.01431608,
+        0.22720499
+      ]
+    },
+    {
+      "id": "4899412344941",
+      "title": "Gyokuro Kuradashi",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji (Kyoto)",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "umami",
+        "fresh bamboo shoot",
+        "spinach",
+        "roasted macadamia nuts",
+        "nori",
+        "floral hint of nectar"
+      ],
+      "taste": [
+        "smooth and silky"
+      ],
+      "position": [
+        -0.27348089,
+        -0.00311933,
+        0.23383704
+      ]
+    },
+    {
+      "id": "7686762037357",
+      "title": "Gyokuro Tsuyuhikari",
+      "class": "green",
+      "country": "Japan",
+      "region": "Hoshino village",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral nectar",
+        "subtle marine hints",
+        "forest-like green undercurrent",
+        "dewy flower"
+      ],
+      "taste": [
+        "softness",
+        "silky"
+      ],
+      "position": [
+        -0.26506048,
+        0.01086728,
+        0.22424804
+      ]
+    },
+    {
+      "id": "6719438651501",
+      "title": "Gyokuro Yame",
+      "class": "green",
+      "country": "Japan",
+      "region": "Yame, Hoshino Village, Fukuoka",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fruity",
+        "herbaceous",
+        "white fruits",
+        "fresh seaweed",
+        "asparagus",
+        "fern shoots",
+        "sesame seeds",
+        "delicately iodized marine aspect"
+      ],
+      "taste": [
+        "silky texture on the palate"
+      ],
+      "position": [
+        -0.28114635,
+        -0.00754468,
+        0.20191832
+      ]
+    },
+    {
+      "id": "6733254918253",
+      "title": "Hojicha-Matcha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji",
+      "oxidation": "low",
+      "roast": "heavy",
+      "aroma": [
+        "Hojicha"
+      ],
+      "taste": [],
+      "position": [
+        -0.42551392,
+        -0.27631068,
+        -0.09859302
+      ]
+    },
+    {
+      "id": "6671463055469",
+      "title": "Hojicha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "light",
+      "aroma": [
+        "toasted bread",
+        "maple syrup",
+        "red berries",
+        "autumn honey",
+        "dry-roasted almond"
+      ],
+      "taste": [],
+      "position": [
+        -0.42189825,
+        -0.27181149,
+        -0.13589127
+      ]
+    },
+    {
+      "id": "9435626064",
+      "title": "Hojicha (Ichiban)",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "light",
+      "aroma": [
+        "brown sugar",
+        "dried plum",
+        "salted caramel",
+        "subtle floral undertones",
+        "buttery hazelnut"
+      ],
+      "taste": [
+        "lingering finish",
+        "enveloping"
+      ],
+      "position": [
+        -0.26854837,
+        0.00038334,
+        0.20241082
+      ]
+    },
+    {
+      "id": "9193747728",
+      "title": "Hojicha Hanakaoru",
+      "class": "green",
+      "country": "Japan",
+      "region": "Miyazaki",
+      "oxidation": "low",
+      "roast": "light",
+      "aroma": [
+        "peanut butter",
+        "sweet grass",
+        "lemongrass",
+        "golden grapes",
+        "mirabelle plum",
+        "acacia flower"
+      ],
+      "taste": [
+        "light",
+        "without the slightest bitterness"
+      ],
+      "position": [
+        -0.27608007,
+        0.00765849,
+        0.20502441
+      ]
+    },
+    {
+      "id": "9435625936",
+      "title": "Huang Shan Mao Feng",
+      "class": "green",
+      "country": "China",
+      "region": "Yellow Mountains",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "flowery",
+        "wild-orchids",
+        "Herbaceous",
+        "tree sap",
+        "nectar",
+        "lightly toasted nuts"
+      ],
+      "taste": [],
+      "position": [
+        -0.44500363,
+        -0.23757972,
+        -0.1332591
+      ]
+    },
+    {
+      "id": "9435625360",
+      "title": "Huiming",
+      "class": "green",
+      "country": "China",
+      "region": "Zhejiang province",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "soft floral",
+        "vegetal",
+        "Herbaceous",
+        "fiddleheads",
+        "tarragon",
+        "buttered green beans",
+        "freshly cut hay",
+        "sweet clover",
+        "narcissus",
+        "white peach"
+      ],
+      "taste": [
+        "subtle hint of white peach in the finish",
+        "Round"
+      ],
+      "position": [
+        -0.27206686,
+        0.05169529,
+        0.21094751
+      ]
+    },
+    {
+      "id": "1317107990637",
+      "title": "Huiming Bai Ye",
+      "class": "green",
+      "country": "China",
+      "region": "Jingning, Zhejiang",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "pine nuts",
+        "edamame",
+        "buttered asparagus",
+        "lemons",
+        "melons",
+        "white flowers",
+        "hint of salt"
+      ],
+      "taste": [
+        "ample texture of this tea is soft and slightly sweet"
+      ],
+      "position": [
+        -0.25683272,
+        0.05369566,
+        0.20767961
+      ]
+    },
+    {
+      "id": "7686747160685",
+      "title": "Ityou Sencha Koshoun",
+      "class": "green",
+      "country": "Japan",
+      "region": "Yame",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "buttery poached pear",
+        "yellow bean",
+        "rich, almost creamy florals"
+      ],
+      "taste": [
+        "Its texture is full and embracing"
+      ],
+      "position": [
+        -0.28423333,
+        -0.00026843,
+        0.21314149
+      ]
+    },
+    {
+      "id": "9377322256",
+      "title": "Golden Jasmine",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "perfume of multiple rotations of jasmine flowers"
+      ],
+      "taste": [],
+      "position": [
+        -0.42555812,
+        -0.23888952,
+        -0.13112621
+      ]
+    },
+    {
+      "id": "6895558328429",
+      "title": "Je-Ju Do Nokcha",
+      "class": "green",
+      "country": "South Korea",
+      "region": "Je-Ju",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "green vegetables",
+        "raw hazelnut",
+        "hint of fruit",
+        "yellow bean",
+        "lemon",
+        "asparagus",
+        "pine nuts"
+      ],
+      "taste": [],
+      "position": [
+        -0.42861119,
+        -0.26996842,
+        -0.1346017
+      ]
+    },
+    {
+      "id": "1317112414317",
+      "title": "Kabusecha Hougyoku",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "coastal notes",
+        "herbaceous notes"
+      ],
+      "taste": [],
+      "position": [
+        -0.43461132,
+        -0.26917025,
+        -0.12332926
+      ]
+    },
+    {
+      "id": "7686759383149",
+      "title": "Kabusecha Tsuyuhikari",
+      "class": "green",
+      "country": "Japan",
+      "region": "Yame",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral",
+        "lily",
+        "yellow blossoms",
+        "Asian pear",
+        "sweet"
+      ],
+      "taste": [
+        "gentle"
+      ],
+      "position": [
+        -0.27451065,
+        -0.01786274,
+        0.17936918
+      ]
+    },
+    {
+      "id": "7686752927853",
+      "title": "Kabusecha Yamanoibuki",
+      "class": "green",
+      "country": "Japan",
+      "region": "Hoshino",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "savory",
+        "umami",
+        "buttery fava beans",
+        "fresh dill",
+        "crisp cucumber",
+        "pear",
+        "gentle floral nectar"
+      ],
+      "taste": [
+        "full-bodied"
+      ],
+      "position": [
+        -0.27010792,
+        -0.04038607,
+        0.16910702
+      ]
+    },
+    {
+      "id": "9193747920",
+      "title": "Kamairicha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fruity hints of maïze and mango",
+        "vegetal notes of corn salad, and rocket lettuce"
+      ],
+      "taste": [],
+      "position": [
+        -0.43764505,
+        -0.28799799,
+        -0.12483922
+      ]
+    },
+    {
+      "id": "4763538620525",
+      "title": "Long Jing Da Fo",
+      "class": "green",
+      "country": "China",
+      "region": "Xinchang, Zhejiang",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "walnut oil",
+        "stone fruits",
+        "toasted pine nuts",
+        "plain potato chips",
+        "roasted asparagus",
+        "nectarine",
+        "umami",
+        "sweet-salty"
+      ],
+      "taste": [
+        "lots of umami and almost sweet-salty vibrance"
+      ],
+      "position": [
+        -0.26436377,
+        -0.0231142,
+        0.16930632
+      ]
+    },
+    {
+      "id": "1317108875373",
+      "title": "Long Jing Shi Feng",
+      "class": "green",
+      "country": "China",
+      "region": "Shi Feng mountain",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "chestnuts",
+        "toasted hazelnuts",
+        "grilled asparagus",
+        "golden sugar",
+        "nougat",
+        "floral hint of fresh sap"
+      ],
+      "taste": [
+        "silky",
+        "beautiful long and sweet aftertaste"
+      ],
+      "position": [
+        -0.26907992,
+        0.00355826,
+        0.22333592
+      ]
+    },
+    {
+      "id": "9278958480",
+      "title": "Long Jing Xi Hu",
+      "class": "green",
+      "country": "China",
+      "region": "Xi Hu",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "toasted chestnut",
+        "fruit sugar",
+        "sweet",
+        "asparagus",
+        "hazelnut butter",
+        "fried potatoes",
+        "artichoke heart",
+        "ripe fruit",
+        "flower sweet"
+      ],
+      "taste": [
+        "naturally delicate flower sweet finish"
+      ],
+      "position": [
+        -0.27388388,
+        -0.01194129,
+        0.19179703
+      ]
+    },
+    {
+      "id": "9435625104",
+      "title": "Lu An Gua Pian",
+      "class": "green",
+      "country": "China",
+      "region": "Anhui Province",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "Naturally sweet",
+        "cooked spinach",
+        "fresh corn",
+        "pumpkin seeds"
+      ],
+      "taste": [
+        "Naturally sweet"
+      ],
+      "position": [
+        -0.27030325,
+        -0.01636354,
+        0.19348802
+      ]
+    },
+    {
+      "id": "4704813744237",
+      "title": "Lu Shan Yun Wu",
+      "class": "green",
+      "country": "China",
+      "region": "Lu Shan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "herbaceous",
+        "slightly roasted",
+        "fresh fruit",
+        "asparagus",
+        "ferns",
+        "hazelnut",
+        "roasted corn"
+      ],
+      "taste": [],
+      "position": [
+        -0.40753067,
+        -0.20910203,
+        -0.14002159
+      ]
+    },
+    {
+      "id": "9366581328",
+      "title": "Mango Passion",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "exotic fruit",
+        "mango",
+        "pineapple",
+        "passion fruit"
+      ],
+      "taste": [],
+      "position": [
+        -0.41959888,
+        -0.24802433,
+        -0.14633177
+      ]
+    },
+    {
+      "id": "9435624592",
+      "title": "Matcha - Culinary / Latte grade",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [],
+      "taste": [],
+      "position": [
+        -0.59584558,
+        -0.31360683,
+        0.012084
+      ]
+    },
+    {
+      "id": "9193745488",
+      "title": "Matcha Mantoku",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kyushu",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "dark bitter chocolate",
+        "dark green vegetables",
+        "hazelnut",
+        "salty",
+        "iodized"
+      ],
+      "taste": [
+        "silky smooth",
+        "soft salty, iodized finish"
+      ],
+      "position": [
+        -0.23945019,
+        0.07021014,
+        0.23524816
+      ]
+    },
+    {
+      "id": "1317113200749",
+      "title": "Matcha Tenraku",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fresh grass",
+        "lamb’s lettuce",
+        "dark chocolate",
+        "berries"
+      ],
+      "taste": [
+        "Velvety, silky and delicate"
+      ],
+      "position": [
+        -0.28522509,
+        -0.01280769,
+        0.22428995
+      ]
+    },
+    {
+      "id": "8001148715117",
+      "title": "Matcha Uji-no-Mukashi",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "soft vegetal notes",
+        "cacao",
+        "blossom",
+        "fresh fruit"
+      ],
+      "taste": [
+        "silky in texture"
+      ],
+      "position": [
+        -0.28194764,
+        -0.02515537,
+        0.20648187
+      ]
+    },
+    {
+      "id": "9435624656",
+      "title": "Matcha Uji-no-Shiro",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "herbal character",
+        "raw cocoa",
+        "snow peas",
+        "lush grass",
+        "nori",
+        "slightly sweet"
+      ],
+      "taste": [
+        "lovely, enveloping and slightly sweet taste that lasts"
+      ],
+      "position": [
+        -0.27794188,
+        -0.00622421,
+        0.20265824
+      ]
+    },
+    {
+      "id": "9377322704",
+      "title": "Dragon Pearls",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "perfume of multiple rotations of jasmine flowers"
+      ],
+      "taste": [],
+      "position": [
+        -0.42555812,
+        -0.23888952,
+        -0.13112621
+      ]
+    },
+    {
+      "id": "1317113495661",
+      "title": "Sencha Asanoka",
+      "class": "green",
+      "country": "Japan",
+      "region": "western Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "wild flowers",
+        "pear",
+        "fresh grass",
+        "bread rolls",
+        "sweet nectar that pours from spring flowers"
+      ],
+      "taste": [
+        "velvety, almost creamy, texture"
+      ],
+      "position": [
+        -0.28435645,
+        0.00544294,
+        0.21612871
+      ]
+    },
+    {
+      "id": "9193746960",
+      "title": "Sencha Asatsuyu",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetal",
+        "fresh sprouts",
+        "spinach",
+        "sweet corn",
+        "cocoa",
+        "butter biscuit",
+        "delicately floral"
+      ],
+      "taste": [
+        "velvety and delicate",
+        "satiny texture",
+        "without the slightest astringency",
+        "beautiful caressing, delicately floral persistence"
+      ],
+      "position": [
+        -0.27295387,
+        0.00988179,
+        0.23842996
+      ]
+    },
+    {
+      "id": "4899399303277",
+      "title": "Sencha Irodori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji, Kyoto",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "comforting, almost sweet",
+        "cookies",
+        "cashew butter",
+        "lamb's lettuce",
+        "fresh fruit"
+      ],
+      "taste": [
+        "smooth",
+        "suave",
+        "beautiful aromatic persistence"
+      ],
+      "position": [
+        -0.25799826,
+        0.02220656,
+        0.25206354
+      ]
+    },
+    {
+      "id": "1317113856109",
+      "title": "Sencha Kanayamidori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fruity",
+        "herbaceous",
+        "exotic fruits",
+        "pineapple",
+        "mango",
+        "fresh grass",
+        "lamb's lettuce",
+        "wild flowers"
+      ],
+      "taste": [],
+      "position": [
+        -0.43591648,
+        -0.28066853,
+        -0.13845626
+      ]
+    },
+    {
+      "id": "9366581136",
+      "title": "Sencha Mandarin",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "citrus",
+        "zesty",
+        "mandarin",
+        "cinnamon"
+      ],
+      "taste": [],
+      "position": [
+        -0.43442413,
+        -0.27964139,
+        -0.13227262
+      ]
+    },
+    {
+      "id": "9435625552",
+      "title": "Sencha Okumidori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "aromatic freshness",
+        "buttered",
+        "lamb's lettuce",
+        "pear",
+        "buttery yellow bean",
+        "sweet marine",
+        "salinity",
+        "summer flower sap"
+      ],
+      "taste": [
+        "without astringency",
+        "buttered infusion is a real caress for the senses",
+        "sweet marine finish mixing salinity and summer flower sap"
+      ],
+      "position": [
+        -0.26179564,
+        0.00886106,
+        0.22146207
+      ]
+    },
+    {
+      "id": "9193745808",
+      "title": "Sencha Okuyutaka",
+      "class": "green",
+      "country": "Japan",
+      "region": "Hoshino",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fresh-cut grass",
+        "lemon zest",
+        "green vegetal notes",
+        "green bean",
+        "mustard flower",
+        "mâche",
+        "bok choy"
+      ],
+      "taste": [
+        "Lively yet gentle",
+        "clean",
+        "graceful balance"
+      ],
+      "position": [
+        -0.26647159,
+        0.00249308,
+        0.22549269
+      ]
+    },
+    {
+      "id": "6639028666477",
+      "title": "Sencha Saemidori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "herbaceous freshness",
+        "lemongrass",
+        "parsley",
+        "lamb's lettuce",
+        "light fruity notes",
+        "lemon",
+        "green apple",
+        "white peach",
+        "yellow bean in butter",
+        "sunflower seed",
+        "fresh pine nuts"
+      ],
+      "taste": [],
+      "position": [
+        -0.43272305,
+        -0.2757754,
+        -0.13499346
+      ]
+    },
+    {
+      "id": "9193746384",
+      "title": "Sencha Sho",
+      "class": "green",
+      "country": "Japan",
+      "region": "Uji",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fresh herbs",
+        "arugula",
+        "asparagus",
+        "yellow beans",
+        "mango",
+        "honeydew",
+        "cashew",
+        "butter"
+      ],
+      "taste": [
+        "silky and dense texture"
+      ],
+      "position": [
+        -0.28162265,
+        -0.02138757,
+        0.20411128
+      ]
+    },
+    {
+      "id": "9193746640",
+      "title": "Sencha Tenga",
+      "class": "green",
+      "country": "Japan",
+      "region": "Yukushima Island / Kagoshima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "dark chocolate",
+        "almond",
+        "toast",
+        "fresh mango",
+        "sorrel",
+        "fresh spinach",
+        "grilled nori",
+        "asparagus",
+        "nut butter",
+        "fruity",
+        "subtly floral"
+      ],
+      "taste": [
+        "almost creamy",
+        "velvety texture",
+        "long persistence"
+      ],
+      "position": [
+        -0.22896841,
+        0.0884949,
+        0.22250909
+      ]
+    },
+    {
+      "id": "1317115592813",
+      "title": "Sencha Tenho",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima, Kyushu Island",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetal character",
+        "steamed asparagus",
+        "fresh herbs",
+        "delicate flower",
+        "toasted notes",
+        "roasted nuts",
+        "peanut",
+        "butter of cocoa",
+        "melted butter",
+        "sweet"
+      ],
+      "taste": [
+        "rich and dense liquor",
+        "sweet"
+      ],
+      "position": [
+        -0.26248837,
+        0.03272527,
+        0.22164641
+      ]
+    },
+    {
+      "id": "3829703344237",
+      "title": "Sencha Watanabe",
+      "class": "green",
+      "country": "Japan",
+      "region": "Watanabe, Kagoshima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "lamb's lettuce",
+        "arugula",
+        "yellow string beans",
+        "meringue",
+        "toasted rice",
+        "citrus zest"
+      ],
+      "taste": [
+        "rich, dense and tonic liquor",
+        "full and velvety texture",
+        "followed in the end with a hint of citrus zest"
+      ],
+      "position": [
+        -0.26945215,
+        0.00904204,
+        0.24829414
+      ]
+    },
+    {
+      "id": "6585269878893",
+      "title": "Sencha Yabukita",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "naturally sweet vegetal notes",
+        "sap",
+        "wildflowers",
+        "clover",
+        "lamb's lettuce",
+        "buttery nuances",
+        "pine nut"
+      ],
+      "taste": [
+        "refreshingly crisp"
+      ],
+      "position": [
+        -0.27273038,
+        -0.02021986,
+        0.18855418
+      ]
+    },
+    {
+      "id": "6663025655917",
+      "title": "Sencha Yume Kaori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Chiran, Kagoshima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetal freshness",
+        "freshly cut grass",
+        "lettuce",
+        "fresh basil",
+        "red cherry",
+        "white flower"
+      ],
+      "taste": [],
+      "position": [
+        -0.43436006,
+        -0.27912146,
+        -0.12385304
+      ]
+    },
+    {
+      "id": "7480660951149",
+      "title": "Sencha Yutakamidori",
+      "class": "green",
+      "country": "Japan",
+      "region": "Miyazaki",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "comforting, almost sweet",
+        "biscuits",
+        "lamb's lettuce",
+        "exotic yellow fruits"
+      ],
+      "taste": [
+        "creamy",
+        "Balanced and smooth",
+        "beautiful aromatic persistence"
+      ],
+      "position": [
+        -0.26113293,
+        0.0239258,
+        0.26637259
+      ]
+    },
+    {
+      "id": "1317116182637",
+      "title": "Sencha Zairai",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kirishima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "sweet, fruity vegetal nuances",
+        "peach",
+        "pear",
+        "buttered asparagus",
+        "lamb's lettuce",
+        "basil"
+      ],
+      "taste": [],
+      "position": [
+        -0.43298903,
+        -0.28386554,
+        -0.13013621
+      ]
+    },
+    {
+      "id": "4679576223853",
+      "title": "Sunshine your Life!",
+      "class": "green",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "Peach",
+        "turmeric",
+        "calendula",
+        "mullein"
+      ],
+      "taste": [],
+      "position": [
+        -0.43642747,
+        -0.27399063,
+        -0.13900952
+      ]
+    },
+    {
+      "id": "9435625040",
+      "title": "Taiping Hou Kui",
+      "class": "green",
+      "country": "China",
+      "region": "Yellow Mountains",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fresh bamboo shoot",
+        "lamb's lettuce",
+        "orchid",
+        "spring sap"
+      ],
+      "taste": [],
+      "position": [
+        -0.44455349,
+        -0.24873206,
+        -0.13429338
+      ]
+    },
+    {
+      "id": "1315114549357",
+      "title": "Tamaryokucha",
+      "class": "green",
+      "country": "Japan",
+      "region": "Kagoshima",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "roasted",
+        "herbaceous",
+        "nut butter",
+        "sesame",
+        "grilled kale",
+        "lamb's lettuce",
+        "mango",
+        "yuzu"
+      ],
+      "taste": [
+        "creamy and rich texture"
+      ],
+      "position": [
+        -0.27787626,
+        0.00271228,
+        0.2124785
+      ]
+    },
+    {
+      "id": "9377321552",
+      "title": "Mint Green Tea",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "mint",
+        "green tea"
+      ],
+      "taste": [],
+      "position": [
+        -0.42342037,
+        -0.23927574,
+        -0.12894268
+      ]
+    },
+    {
+      "id": "9377323024",
+      "title": "Flower Tea",
+      "class": "green",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "jasmine"
+      ],
+      "taste": [],
+      "position": [
+        -0.41906926,
+        -0.24142379,
+        -0.11868447
+      ]
+    },
+    {
+      "id": "1317091737709",
+      "title": "Bai Hao Yin Zhen",
+      "class": "white",
+      "country": "China",
+      "region": "Fuding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "fresh sap",
+        "wildflowers",
+        "clover honey",
+        "naturally sweet",
+        "slightly plant-like",
+        "fruity",
+        "early morning dew"
+      ],
+      "taste": [
+        "smooth, velvety texture",
+        "nice, slightly plant-like and fruity finish",
+        "silkiness"
+      ],
+      "position": [
+        -0.08424436,
+        0.26185277,
+        0.15054168
+      ]
+    },
+    {
+      "id": "9435625488",
+      "title": "Bai Mu Dan",
+      "class": "white",
+      "country": "China",
+      "region": "Zhenghe, Fujian Province",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "vegetal",
+        "fruity",
+        "refreshing floral",
+        "field herbs",
+        "fresh cereals",
+        "clover honey",
+        "peach",
+        "fresh grapes"
+      ],
+      "taste": [
+        "honeyed persistence"
+      ],
+      "position": [
+        -0.12012492,
+        0.14718649,
+        0.06599241
+      ]
+    },
+    {
+      "id": "7049590964333",
+      "title": "Bihar Silver Needle",
+      "class": "white",
+      "country": "India",
+      "region": "Bihar",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "PEAR",
+        "LEMON VERBENA",
+        "FLORAL",
+        "VANILLA",
+        "sweet pastry scents",
+        "pear",
+        "lemon zest",
+        "vanilla",
+        "verbena",
+        "yellow beans",
+        "refreshing floral hint"
+      ],
+      "taste": [],
+      "position": [
+        -0.24169214,
+        -0.0761994,
+        -0.2284417
+      ]
+    },
+    {
+      "id": "6733528236141",
+      "title": "Fuding Shou Mei 2020",
+      "class": "white",
+      "country": "China",
+      "region": "Fuding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "summer honey",
+        "fresh apples",
+        "beeswax",
+        "apple blossom",
+        "clover honey",
+        "apple crumble",
+        "brioche"
+      ],
+      "taste": [],
+      "position": [
+        -0.21313,
+        0.02930783,
+        -0.26619104
+      ]
+    },
+    {
+      "id": "6637549420653",
+      "title": "Gokase Zairai",
+      "class": "white",
+      "country": "Japan",
+      "region": "Kyushu",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "sweet",
+        "woody",
+        "fruity",
+        "Bosc pear",
+        "banana",
+        "apple blossom",
+        "cedar",
+        "pepper",
+        "vanilla"
+      ],
+      "taste": [
+        "Soft",
+        "mellow",
+        "aromatic persistence",
+        "caressing effect on the palate"
+      ],
+      "position": [
+        -0.06784268,
+        0.25799084,
+        0.13654505
+      ]
+    },
+    {
+      "id": "4659664257133",
+      "title": "Gong Mei 2017 \"mini-buttons\"",
+      "class": "white",
+      "country": "China",
+      "region": "Fuding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "dried fruit",
+        "apple cider",
+        "naturally sweet",
+        "dried apples",
+        "bosc pear",
+        "cinnamon",
+        "autumn leaves",
+        "honey"
+      ],
+      "taste": [
+        "soft and refreshing"
+      ],
+      "position": [
+        -0.07954492,
+        0.24406376,
+        0.1037055
+      ]
+    },
+    {
+      "id": "4777973579885",
+      "title": "Gu Shu Bai Lu",
+      "class": "white",
+      "country": "China",
+      "region": "Ming Feng, Yunnan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "sweetness",
+        "honey",
+        "kiwi",
+        "green anise",
+        "vanilla",
+        "lemon verbena",
+        "buttered yellow bean"
+      ],
+      "taste": [
+        "surprising aromatic persistence",
+        "thirst quenching"
+      ],
+      "position": [
+        -0.08234792,
+        0.24150401,
+        0.08386204
+      ]
+    },
+    {
+      "id": "1317101895789",
+      "title": "Jinggu - Wild tea tree buds",
+      "class": "white",
+      "country": "China",
+      "region": "Jinggu",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "sweet",
+        "maple water",
+        "fresh sap",
+        "woody",
+        "vegetable",
+        "lemon balm",
+        "ginseng",
+        "fresh sawdust",
+        "turnip"
+      ],
+      "taste": [
+        "sweet taste",
+        "refreshing"
+      ],
+      "position": [
+        -0.10171638,
+        0.24200237,
+        0.13289998
+      ]
+    },
+    {
+      "id": "6663038402669",
+      "title": "Shou Mei 2016",
+      "class": "white",
+      "country": "China",
+      "region": "Fuding",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "cooked apple and pear",
+        "sweet spices",
+        "autumn honey",
+        "floral freshness"
+      ],
+      "taste": [],
+      "position": [
+        -0.21124679,
+        0.01792739,
+        -0.25572264
+      ]
+    },
+    {
+      "id": "9435625296",
+      "title": "Simao Bai Cha",
+      "class": "white",
+      "country": "China",
+      "region": "Simao",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "slightly acidic",
+        "sweet",
+        "herbacious",
+        "vanilla",
+        "berries",
+        "apricot"
+      ],
+      "taste": [
+        "subtle softness",
+        "smooth texture"
+      ],
+      "position": [
+        -0.07377057,
+        0.23901555,
+        0.11895305
+      ]
+    },
+    {
+      "id": "9378915792",
+      "title": "Jasmine Yin Zhen",
+      "class": "white",
+      "country": "China",
+      "region": "China",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "perfume of multiple rotations of jasmine flowers"
+      ],
+      "taste": [
+        "more subtle in taste"
+      ],
+      "position": [
+        -0.10244561,
+        0.18813692,
+        0.09367473
+      ]
+    },
+    {
+      "id": "9435625232",
+      "title": "Yue Guang Bai",
+      "class": "white",
+      "country": "China",
+      "region": "Simao, Yunnan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "wheatgrass",
+        "plantain",
+        "sweet chestnut",
+        "apricot",
+        "delicately sweet"
+      ],
+      "taste": [
+        "soft liquor that is low in tannin",
+        "texture is silky and soothing to the throat"
+      ],
+      "position": [
+        -0.08902722,
+        0.231996,
+        0.12669997
+      ]
+    },
+    {
+      "id": "4736788332653",
+      "title": "Assam 'breakfast'",
+      "class": "black",
+      "country": "India",
+      "region": "Assam",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [],
+      "taste": [
+        "smooth"
+      ],
+      "position": [
+        0.58259529,
+        -0.03907742,
+        0.26954758
+      ]
+    },
+    {
+      "id": "9297811280",
+      "title": "Assam Banaspaty",
+      "class": "black",
+      "country": "India",
+      "region": "Satrupa gardens",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "light tobacco",
+        "malt",
+        "toasted grains"
+      ],
+      "taste": [
+        "full-bodied",
+        "enough tannin"
+      ],
+      "position": [
+        0.44854242,
+        -0.12677863,
+        0.13576239
+      ]
+    },
+    {
+      "id": "8069813239917",
+      "title": "Assam Dejoo",
+      "class": "black",
+      "country": "India",
+      "region": "Dejoo Estate",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "pale malt",
+        "barley sugar",
+        "wild berries",
+        "ripe peach"
+      ],
+      "taste": [
+        "subtle hint of ripe peach in the finish"
+      ],
+      "position": [
+        0.45350027,
+        -0.09061491,
+        0.0926038
+      ]
+    },
+    {
+      "id": "7124029177965",
+      "title": "Assam Doomni",
+      "class": "black",
+      "country": "India",
+      "region": "Doomni garden",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "BLACKBERRIES",
+        "MALTED BARLEY",
+        "ORANGE PEEL",
+        "fruity",
+        "malty",
+        "blackberries",
+        "blueberries",
+        "marshmallows",
+        "barley sugar",
+        "malted cereal",
+        "caramelized",
+        "orange peel",
+        "autumn honey"
+      ],
+      "taste": [
+        "VELVETY",
+        "sweet and velvety aspect",
+        "silky aspect",
+        "In the finish, the fruity and caramelized notes combine with a nuance of orange peel and autumn honey"
+      ],
+      "position": [
+        0.4677957,
+        -0.02555971,
+        0.14980438
+      ]
+    },
+    {
+      "id": "9378916624",
+      "title": "Assam Gingia",
+      "class": "black",
+      "country": "India",
+      "region": "Gingia",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "light tobacco",
+        "malt",
+        "toasted grains"
+      ],
+      "taste": [
+        "full-bodied",
+        "tannin"
+      ],
+      "position": [
+        0.44644514,
+        -0.13110907,
+        0.13524424
+      ]
+    },
+    {
+      "id": "3979674517613",
+      "title": "Assam Latumoni 'Summer Royal'",
+      "class": "black",
+      "country": "India",
+      "region": "Latumoni",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fresh malt",
+        "ripe fruit",
+        "sweet",
+        "candy sugar",
+        "barley malt",
+        "molasses",
+        "dried papaya"
+      ],
+      "taste": [
+        "silky"
+      ],
+      "position": [
+        0.41202068,
+        -0.13527143,
+        0.11924279
+      ]
+    },
+    {
+      "id": "1317672026221",
+      "title": "Bai Lin Hong Gong Fu",
+      "class": "black",
+      "country": "China",
+      "region": "Fujian",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "chocolate",
+        "flowers",
+        "malt",
+        "woody",
+        "cocoa",
+        "succulent flowers",
+        "caramel",
+        "toasted cereal"
+      ],
+      "taste": [
+        "smooth"
+      ],
+      "position": [
+        0.46517521,
+        -0.0909792,
+        0.11656669
+      ]
+    },
+    {
+      "id": "9378917584",
+      "title": "Bai Ye Dancong Hong Cha",
+      "class": "black",
+      "country": "China",
+      "region": "Feng Huang mountains",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "rosé",
+        "cherry",
+        "chocolate",
+        "litchi",
+        "grapefruit",
+        "toasted brioche"
+      ],
+      "taste": [],
+      "position": [
+        0.44014862,
+        -0.38565975,
+        -0.23333845
+      ]
+    },
+    {
+      "id": "4679558266989",
+      "title": "C vitamins!",
+      "class": "black",
+      "country": null,
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "black fruits",
+        "elderberries",
+        "black currants",
+        "blackberries"
+      ],
+      "taste": [],
+      "position": [
+        0.41880956,
+        -0.41182292,
+        -0.22043632
+      ]
+    },
+    {
+      "id": "1317706825837",
+      "title": "Blackcurrant black tea",
+      "class": "black",
+      "country": "India",
+      "region": "India",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "blackcurrants",
+        "juicy black fruits",
+        "blackcurrant fruit juice",
+        "mulberry leaves"
+      ],
+      "taste": [],
+      "position": [
+        0.45217794,
+        -0.39799091,
+        -0.23624378
+      ]
+    },
+    {
+      "id": "4364041158765",
+      "title": "Ceylan Golden Garden Estate",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Golden Garden Estate",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "dried fruits",
+        "raisins",
+        "dark chocolate",
+        "woody",
+        "slightly smoked",
+        "candied fruits",
+        "sweet molasses",
+        "citrus bark",
+        "malty vegetables",
+        "light tobacco"
+      ],
+      "taste": [
+        "structured tannins"
+      ],
+      "position": [
+        0.47534013,
+        -0.10166632,
+        0.11789219
+      ]
+    },
+    {
+      "id": "9378916368",
+      "title": "Ceylan Lumbini",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Lumbini gardens",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "orchard fruits",
+        "cereal",
+        "tobacco",
+        "mild spices",
+        "prune jam",
+        "figs",
+        "malt"
+      ],
+      "taste": [
+        "soft tannins"
+      ],
+      "position": [
+        0.43263778,
+        -0.13964967,
+        0.10002276
+      ]
+    },
+    {
+      "id": "9377322896",
+      "title": "Chai CHA YI",
+      "class": "black",
+      "country": "India",
+      "region": "Assam",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "bold flavour of Assam tea",
+        "cardamome",
+        "ginger",
+        "cinnamon",
+        "cloves",
+        "nutmeg",
+        "pepper"
+      ],
+      "taste": [],
+      "position": [
+        0.45598546,
+        -0.35384732,
+        -0.24849086
+      ]
+    },
+    {
+      "id": "9193744720",
+      "title": "Autumn Chai",
+      "class": "black",
+      "country": "India",
+      "region": "India",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "pumkin spice pie",
+        "roasted maté",
+        "vanilla",
+        "freshly grounded spices"
+      ],
+      "taste": [
+        "bold"
+      ],
+      "position": [
+        0.46561643,
+        -0.13412641,
+        0.08707408
+      ]
+    },
+    {
+      "id": "9377322512",
+      "title": "Chai Masala",
+      "class": "black",
+      "country": "India",
+      "region": "Assam",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "cinnamon",
+        "cloves",
+        "nutmeg"
+      ],
+      "taste": [],
+      "position": [
+        0.46238095,
+        -0.34997961,
+        -0.24311589
+      ]
+    },
+    {
+      "id": "9366581840",
+      "title": "Choco-cardamom",
+      "class": "black",
+      "country": "India",
+      "region": "Assam",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "Assam black tea",
+        "black chocolate",
+        "cardamom"
+      ],
+      "taste": [
+        "onctuosity"
+      ],
+      "position": [
+        0.46150199,
+        -0.10504597,
+        0.08449303
+      ]
+    },
+    {
+      "id": "3812581572717",
+      "title": "Da Xue Shan Hong Cha",
+      "class": "black",
+      "country": "China",
+      "region": "Da Xue Mountain",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "sweet flavor",
+        "fruity notes of yellow peach and wild blackberry",
+        "honeyed note with a hint of flower",
+        "mineral notes",
+        "fresh apricot",
+        "eucalyptus"
+      ],
+      "taste": [
+        "exceptionally smooth",
+        "smooth",
+        "On the finish, beautiful mineral notes are combined with nuances of fresh apricot and eucalyptus."
+      ],
+      "position": [
+        0.47190225,
+        -0.00548914,
+        0.13201043
+      ]
+    },
+    {
+      "id": "6808115150957",
+      "title": "Darjeeling Avongrove 1st Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Rangbhang Valley",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "cake",
+        "vanilla",
+        "linden honey",
+        "white blossoms",
+        "lemon",
+        "verbena"
+      ],
+      "taste": [
+        "bright finish of lemon and verbena"
+      ],
+      "position": [
+        0.44975892,
+        -0.06816085,
+        0.08330506
+      ]
+    },
+    {
+      "id": "6808091525229",
+      "title": "Darjeeling Giddapahar 'Delight' 1st Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Giddapahar",
+      "oxidation": "medium",
+      "roast": "none",
+      "aroma": [
+        "golden apple",
+        "butter",
+        "meadow blossoms",
+        "white pepper"
+      ],
+      "taste": [
+        "naturally sweet",
+        "full"
+      ],
+      "position": [
+        0.28511152,
+        0.06535323,
+        0.06739458
+      ]
+    },
+    {
+      "id": "9193745232",
+      "title": "Darjeeling Giddapahar 'Muscatel' 2nd Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Giddapahar",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fruit and pastry",
+        "Muscatel grapes",
+        "brioche bread",
+        "apple crumble",
+        "grapes",
+        "cooked peach",
+        "marmalade"
+      ],
+      "taste": [
+        "Round and suave, its almost sweet liquor nevertheless has well-structured tannins."
+      ],
+      "position": [
+        0.45924994,
+        -0.06349169,
+        0.09423377
+      ]
+    },
+    {
+      "id": "1317688082541",
+      "title": "Darjeeling Jungpana 'Muscatel' 2nd Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Jungpana",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "muscatel grapes",
+        "citrus fruit",
+        "passionfruit",
+        "sweet spices"
+      ],
+      "taste": [
+        "well structured tannins"
+      ],
+      "position": [
+        0.45636699,
+        -0.10125442,
+        0.07782305
+      ]
+    },
+    {
+      "id": "1413593792621",
+      "title": "Darjeeling Namring « Tippy Muscatel » 2nd Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Namring garden",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "Pastry-like",
+        "shortbread",
+        "sweet almond",
+        "cacao",
+        "fruity",
+        "floral",
+        "apricot",
+        "muscat",
+        "white blossom"
+      ],
+      "taste": [
+        "smooth, round",
+        "no hint of bitterness",
+        "velvety texture"
+      ],
+      "position": [
+        0.45789081,
+        -0.02466588,
+        0.14532216
+      ]
+    },
+    {
+      "id": "9378916688",
+      "title": "Darjeeling Thurbo 'Spring Wonder' 1st Flush",
+      "class": "black",
+      "country": "India",
+      "region": "Mirik Valley",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "floral notes evoking hyacinth and acacia",
+        "flower nectar",
+        "fresh spring shoots",
+        "apricot",
+        "pastry"
+      ],
+      "taste": [
+        "soft, silky",
+        "lingering finish of apricot and pastry",
+        "airy, almost weightless"
+      ],
+      "position": [
+        0.09772453,
+        0.08386893,
+        0.15963964
+      ]
+    },
+    {
+      "id": "9377321424",
+      "title": "Earl Grey",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "citrucy",
+        "bergamot"
+      ],
+      "taste": [
+        "boldness",
+        "Rich and bright"
+      ],
+      "position": [
+        0.43910119,
+        -0.13139604,
+        0.13500448
+      ]
+    },
+    {
+      "id": "9377321296",
+      "title": "Cream of Earl Grey",
+      "class": "black",
+      "country": "India",
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "citrucy",
+        "bergamot",
+        "vanilla",
+        "rich cream"
+      ],
+      "taste": [
+        "boldness",
+        "rich cream"
+      ],
+      "position": [
+        0.45991036,
+        -0.10217168,
+        0.13726135
+      ]
+    },
+    {
+      "id": "9366581776",
+      "title": "Citrus Harmony",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "citrus",
+        "lemon",
+        "grapefruit",
+        "orange"
+      ],
+      "taste": [],
+      "position": [
+        0.4212651,
+        -0.41369513,
+        -0.22318898
+      ]
+    },
+    {
+      "id": "9378916880",
+      "title": "Jin Jun Mei",
+      "class": "black",
+      "country": "China",
+      "region": "Fujian",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "dark chocolate",
+        "caramel",
+        "rose blossom",
+        "fresh lemon-balm",
+        "ripe fruits",
+        "summer flowers honey"
+      ],
+      "taste": [
+        "smooth",
+        "long and pleasantly sweet mouthfeel"
+      ],
+      "position": [
+        0.46079183,
+        -0.03800527,
+        0.11669267
+      ]
+    },
+    {
+      "id": "9378916432",
+      "title": "Jun Chiyabari 1st Flush",
+      "class": "black",
+      "country": "Nepal",
+      "region": "Nepal",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "peach",
+        "bosc pear",
+        "orange blossom honey",
+        "dill",
+        "lavender",
+        "citronella"
+      ],
+      "taste": [],
+      "position": [
+        0.01649707,
+        -0.17919108,
+        -0.2315118
+      ]
+    },
+    {
+      "id": "9278958864",
+      "title": "Jun Chiyabari 2nd flush",
+      "class": "black",
+      "country": "Nepal",
+      "region": "Nepal",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fruity",
+        "fresh fruit",
+        "muscat",
+        "opulent flower",
+        "honey",
+        "sweet spices",
+        "fruit jam"
+      ],
+      "taste": [
+        "elegant finish of fruit jam offers a nice sweet persistence"
+      ],
+      "position": [
+        0.456128,
+        -0.05756469,
+        0.06451849
+      ]
+    },
+    {
+      "id": "9282290256",
+      "title": "Kenya Kangaita",
+      "class": "black",
+      "country": "Kenya",
+      "region": "Kangaita",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "malt",
+        "toast",
+        "bay leaves",
+        "pepper",
+        "plums",
+        "cherry tomatoes"
+      ],
+      "taste": [
+        "strong, full-bodied"
+      ],
+      "position": [
+        0.4726257,
+        -0.09941463,
+        0.09109616
+      ]
+    },
+    {
+      "id": "9378917520",
+      "title": "Lapsang Souchong",
+      "class": "black",
+      "country": "China",
+      "region": "Wuyi Mountains",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "smoke from burning pines",
+        "smoky",
+        "smokiness",
+        "slightly sweet",
+        "woody"
+      ],
+      "taste": [
+        "slightly sweet, distinctive woody taste"
+      ],
+      "position": [
+        0.44271797,
+        -0.07368322,
+        0.08797232
+      ]
+    },
+    {
+      "id": "6906977550445",
+      "title": "Golden Mango",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "mango",
+        "dried mango",
+        "exotic fruits"
+      ],
+      "taste": [],
+      "position": [
+        0.40996441,
+        -0.41836146,
+        -0.22005104
+      ]
+    },
+    {
+      "id": "9278958032",
+      "title": "Mi Xiang Hong Cha",
+      "class": "black",
+      "country": "Taiwan",
+      "region": "Taiwan",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "honey",
+        "peach",
+        "muscat"
+      ],
+      "taste": [
+        "Lighter in tannins"
+      ],
+      "position": [
+        0.46001723,
+        -0.08616534,
+        0.08791072
+      ]
+    },
+    {
+      "id": "9193747344",
+      "title": "Minamisayaka Kocha",
+      "class": "black",
+      "country": "Japan",
+      "region": "Japan",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "tomato paste",
+        "chocolate",
+        "dried fruit",
+        "savoury",
+        "bay leaves",
+        "cherry tomatoes",
+        "apricot",
+        "honey",
+        "bread rolls"
+      ],
+      "taste": [
+        "light",
+        "without any astringency"
+      ],
+      "position": [
+        0.43813813,
+        -0.10532603,
+        0.11972671
+      ]
+    },
+    {
+      "id": "9159392720",
+      "title": "Miss Grey",
+      "class": "black",
+      "country": "Sri Lanka",
+      "region": "Sri Lanka",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "zesty",
+        "fragrant",
+        "bergamot",
+        "rose petals",
+        "orange peel",
+        "lemon"
+      ],
+      "taste": [],
+      "position": [
+        0.41520357,
+        -0.40433717,
+        -0.22534983
+      ]
+    },
+    {
+      "id": "7356337553517",
+      "title": "Peaches and Cream",
+      "class": "black",
+      "country": "India",
+      "region": "India",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "ripe peach",
+        "vanilla"
+      ],
+      "taste": [
+        "creamy"
+      ],
+      "position": [
+        0.45959881,
+        -0.1119021,
+        0.11133713
+      ]
+    },
+    {
+      "id": "9378917264",
+      "title": "Qimen",
+      "class": "black",
+      "country": "China",
+      "region": "Qimen County",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fruity",
+        "earthy",
+        "apricots",
+        "citrus fruit",
+        "leather",
+        "dry earth"
+      ],
+      "taste": [
+        "full-bodied",
+        "no unpleasant bitter taste"
+      ],
+      "position": [
+        0.47319052,
+        -0.06579331,
+        0.14064245
+      ]
+    },
+    {
+      "id": "9378917136",
+      "title": "Qimen Mao Feng",
+      "class": "black",
+      "country": "China",
+      "region": "Yellow Mountains, Anhui",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "lightly flowery",
+        "musky",
+        "buckwheat honey",
+        "cooked apple",
+        "sunbaked earth",
+        "smokiness"
+      ],
+      "taste": [
+        "delicate infusion"
+      ],
+      "position": [
+        0.45466593,
+        -0.03946813,
+        0.0794071
+      ]
+    },
+    {
+      "id": "1506224898157",
+      "title": "Rwanda Rukeri",
+      "class": "black",
+      "country": "Rwanda",
+      "region": "Rukeri",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "sweet",
+        "molasses",
+        "honey",
+        "camphor"
+      ],
+      "taste": [
+        "persistent"
+      ],
+      "position": [
+        0.45686713,
+        -0.06164444,
+        0.05693959
+      ]
+    },
+    {
+      "id": "9378916816",
+      "title": "Sun Moon Lake T-18",
+      "class": "black",
+      "country": "Taiwan",
+      "region": "Sun Moon Lake",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "Peach",
+        "Candi sugar",
+        "Wintergreen",
+        "Asian pear",
+        "raw molasses",
+        "mint",
+        "wintergreen",
+        "ripe fruits",
+        "malt"
+      ],
+      "taste": [
+        "sweet and complex cup"
+      ],
+      "position": [
+        0.43498683,
+        -0.10817797,
+        0.07693057
+      ]
+    },
+    {
+      "id": "9282288336",
+      "title": "Christmas Tea",
+      "class": "black",
+      "country": null,
+      "region": "India",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fruits",
+        "spices",
+        "ginger",
+        "cinnamon",
+        "cardamom",
+        "pineapple",
+        "apple",
+        "papaya",
+        "mango",
+        "rosehip",
+        "hibiscus",
+        "citrus zest",
+        "rose petals",
+        "orange blossoms",
+        "cornflower"
+      ],
+      "taste": [],
+      "position": [
+        0.43649247,
+        -0.39105541,
+        -0.25013062
+      ]
+    },
+    {
+      "id": "9378915856",
+      "title": "Rose Black Tea",
+      "class": "black",
+      "country": "China",
+      "region": "China",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "opulent flower flavor",
+        "bouquet of roses",
+        "honey"
+      ],
+      "taste": [
+        "tannic"
+      ],
+      "position": [
+        0.45592195,
+        -0.11296724,
+        0.05181387
+      ]
+    },
+    {
+      "id": "9378916048",
+      "title": "Lychee Black Tea",
+      "class": "black",
+      "country": "China",
+      "region": "China",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "exotic fruit",
+        "lychee flavor",
+        "lychee flowers",
+        "sweetness of the fruit",
+        "floral of its opulent flowers"
+      ],
+      "taste": [
+        "sweetness"
+      ],
+      "position": [
+        0.45015836,
+        -0.05467637,
+        0.10543577
+      ]
+    },
+    {
+      "id": "7058315444333",
+      "title": "Tong Mu Guan",
+      "class": "black",
+      "country": "China",
+      "region": "Wuyi Mountains",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "COCOA",
+        "HONEY",
+        "APRICOT",
+        "PASTRY",
+        "cocoa",
+        "sweet spices",
+        "autumn honey",
+        "cookies",
+        "apricot jam"
+      ],
+      "taste": [
+        "soft",
+        "Smooth"
+      ],
+      "position": [
+        0.45872095,
+        -0.04584121,
+        0.11763792
+      ]
+    },
+    {
+      "id": "9366581584",
+      "title": "Roasted almonds and Vanilla",
+      "class": "black",
+      "country": "India",
+      "region": "India",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "vanilla pods",
+        "roasted almonds",
+        "puffed amaranth",
+        "freshly baked angel cake",
+        "vanilla"
+      ],
+      "taste": [],
+      "position": [
+        0.4600732,
+        -0.38271937,
+        -0.22962606
+      ]
+    },
+    {
+      "id": "6871471423597",
+      "title": "Wu Yi Tu Cha",
+      "class": "black",
+      "country": "China",
+      "region": "Wuyi Shan, Fujian",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "mirabelle plum",
+        "lychee",
+        "apple juice",
+        "maple sap",
+        "floral",
+        "woody",
+        "white flower",
+        "oak barrel"
+      ],
+      "taste": [
+        "aromatic persistence is sweet and without bitterness"
+      ],
+      "position": [
+        0.44401175,
+        -0.07690489,
+        0.05776529
+      ]
+    },
+    {
+      "id": "9378917072",
+      "title": "Xiao Zhong",
+      "class": "black",
+      "country": "China",
+      "region": "northern Fujian",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "lush flowers",
+        "cocoa beans",
+        "toasted cereal",
+        "sugar candy",
+        "fruit jams",
+        "leather"
+      ],
+      "taste": [
+        "aftertaste slightly sweet",
+        "envelops your entire palate"
+      ],
+      "position": [
+        0.44278568,
+        -0.05676878,
+        0.10470182
+      ]
+    },
+    {
+      "id": "6974776508525",
+      "title": "Yabukita Kocha",
+      "class": "black",
+      "country": "Japan",
+      "region": "Yakushima",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "tomato paste",
+        "cookies",
+        "dried fruits",
+        "bay leaf",
+        "cherry tomato",
+        "orange blossom",
+        "apricot",
+        "honey",
+        "brioche"
+      ],
+      "taste": [
+        "round, tasty and without astringency",
+        "caressing"
+      ],
+      "position": [
+        0.46572772,
+        -0.02152213,
+        0.12238473
+      ]
+    },
+    {
+      "id": "9378916944",
+      "title": "Yunnan Dehong Purple Wild Tree",
+      "class": "black",
+      "country": "China",
+      "region": "Dehong",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "myrtle",
+        "cane sugar",
+        "rice syrup",
+        "blueberry",
+        "blackcurrant"
+      ],
+      "taste": [
+        "Soft and refreshing"
+      ],
+      "position": [
+        0.46901724,
+        -0.02468147,
+        0.10756595
+      ]
+    },
+    {
+      "id": "1314971975789",
+      "title": "Yunnan Dian Hong",
+      "class": "black",
+      "country": "China",
+      "region": "Yunnan",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "candied fruits",
+        "caramel",
+        "blond tobacco",
+        "malt",
+        "moist earth"
+      ],
+      "taste": [
+        "smooth, velvety"
+      ],
+      "position": [
+        0.46375424,
+        -0.02946651,
+        0.13391443
+      ]
+    },
+    {
+      "id": "9278958224",
+      "title": "Yunnan Mojiang Hong Gong Fu",
+      "class": "black",
+      "country": "China",
+      "region": "Mojiang",
+      "oxidation": "high",
+      "roast": "none",
+      "aroma": [
+        "fudge",
+        "lush flowers",
+        "toasted chesnut",
+        "maple butter",
+        "baked cereal",
+        "sweet",
+        "gourmet",
+        "flowery"
+      ],
+      "taste": [
+        "velvety texture",
+        "delightfully sweet and flowery finish"
+      ],
+      "position": [
+        0.44459426,
+        -0.05905598,
+        0.16381316
+      ]
+    },
+    {
+      "id": "7677880893549",
+      "title": "Huo Shan Huang Da Cha",
+      "class": "yellow",
+      "country": "China",
+      "region": "Dabie Shan mountain range, Anhui province",
+      "oxidation": "low",
+      "roast": "heavy",
+      "aroma": [
+        "CEDAR",
+        "ROASTED NUTS",
+        "WHITE FLOWER",
+        "LEMON",
+        "dried cedar leaves",
+        "bay leaf",
+        "nut butter",
+        "wild strawberry",
+        "preserved lemon",
+        "white flower",
+        "peanut",
+        "dried fruit"
+      ],
+      "taste": [
+        "aromatic persistence",
+        "leaves delicious flavors of peanut and dried fruit on the palate"
+      ],
+      "position": [
+        -0.07417884,
+        0.19077846,
+        0.09710958
+      ]
+    },
+    {
+      "id": "9354308112",
+      "title": "Huo Shang Huang Ya",
+      "class": "yellow",
+      "country": "China",
+      "region": "Dabie Shan, Anhui",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "acidic",
+        "fruity",
+        "herbal",
+        "cedar",
+        "tarragon",
+        "artichoke",
+        "pear",
+        "lemon",
+        "walnut",
+        "hazelnut",
+        "white flower"
+      ],
+      "taste": [
+        "thirst-quenching"
+      ],
+      "position": [
+        -0.07979633,
+        0.19117577,
+        0.04825406
+      ]
+    },
+    {
+      "id": "6579223330925",
+      "title": "Zhengwan Huang Ya",
+      "class": "yellow",
+      "country": "China",
+      "region": "Southern Yunnan",
+      "oxidation": "low",
+      "roast": "none",
+      "aroma": [
+        "Fresh apricot",
+        "Honey",
+        "Wild flowers",
+        "Lemon meringue",
+        "dried and candied fruit",
+        "honey",
+        "taffy",
+        "yellow peach",
+        "summer flowers",
+        "butter",
+        "lemon"
+      ],
+      "taste": [
+        "suave",
+        "delicately sweet finish"
+      ],
+      "position": [
+        -0.06410398,
+        0.23244967,
+        0.11698944
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "sequence": 5,
+      "event_count": 5,
+      "positive_vote_weight": 7.0,
+      "negative_vote_weight": 2.0,
+      "positive_position": [
+        -0.087846,
+        0.32753566,
+        -0.17362463
+      ],
+      "negative_position": [
+        -0.43436268,
+        -0.27912262,
+        -0.12385318
+      ],
+      "tastings": [
+        {
+          "tea_id": "9278958096",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9378918800",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9029052432",
+          "verdict": "liked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "7677875880045",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "6663025655917",
+          "verdict": "disliked",
+          "strength": 2.0
+        }
+      ],
+      "recommendations": [
+        {
+          "rank": 1,
+          "tea_id": "1317670355053",
+          "title": "Shan Lin Shi",
+          "class": "oolong",
+          "score": 0.73331779,
+          "positive_similarity": 0.8565408,
+          "negative_similarity": 0.49289206
+        },
+        {
+          "rank": 2,
+          "tea_id": "1317118181485",
+          "title": "Takachiho Koshoun",
+          "class": "oolong",
+          "score": 0.72148764,
+          "positive_similarity": 0.85360748,
+          "negative_similarity": 0.52847934
+        },
+        {
+          "rank": 3,
+          "tea_id": "9278957840",
+          "title": "Hong Xiang",
+          "class": "oolong",
+          "score": 0.71657562,
+          "positive_similarity": 0.85201758,
+          "negative_similarity": 0.54176772
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "event_count": 10,
+      "positive_vote_weight": 11.0,
+      "negative_vote_weight": 3.0,
+      "positive_position": [
+        -0.02384687,
+        0.2204185,
+        -0.0328382
+      ],
+      "negative_position": [
+        -0.2949883,
+        -0.09616679,
+        -0.1520524
+      ],
+      "tastings": [
+        {
+          "tea_id": "9278958096",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9378918800",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9029052432",
+          "verdict": "liked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "7677875880045",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "6663025655917",
+          "verdict": "disliked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "1317663703149",
+          "verdict": "neutral",
+          "strength": 0.0
+        },
+        {
+          "tea_id": "1314971975789",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "1317117395053",
+          "verdict": "disliked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "1317118378093",
+          "verdict": "neutral",
+          "strength": 0.0
+        },
+        {
+          "tea_id": "9278958480",
+          "verdict": "liked",
+          "strength": 2.0
+        }
+      ],
+      "recommendations": [
+        {
+          "rank": 1,
+          "tea_id": "1317670355053",
+          "title": "Shan Lin Shi",
+          "class": "oolong",
+          "score": 0.69695085,
+          "positive_similarity": 0.8514502,
+          "negative_similarity": 0.61799741
+        },
+        {
+          "rank": 2,
+          "tea_id": "1317118181485",
+          "title": "Takachiho Koshoun",
+          "class": "oolong",
+          "score": 0.67498547,
+          "positive_similarity": 0.83900732,
+          "negative_similarity": 0.6560874
+        },
+        {
+          "rank": 3,
+          "tea_id": "9297811152",
+          "title": "Pinglin Bao Zhong",
+          "class": "oolong",
+          "score": 0.67052555,
+          "positive_similarity": 0.83270741,
+          "negative_similarity": 0.64872748
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "event_count": 15,
+      "positive_vote_weight": 14.0,
+      "negative_vote_weight": 4.0,
+      "positive_position": [
+        0.1017894,
+        0.1672786,
+        0.01355754
+      ],
+      "negative_position": [
+        -0.19914579,
+        0.03838046,
+        -0.16372189
+      ],
+      "tastings": [
+        {
+          "tea_id": "9278958096",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9378918800",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9029052432",
+          "verdict": "liked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "7677875880045",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "6663025655917",
+          "verdict": "disliked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "1317663703149",
+          "verdict": "neutral",
+          "strength": 0.0
+        },
+        {
+          "tea_id": "1314971975789",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "1317117395053",
+          "verdict": "disliked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "1317118378093",
+          "verdict": "neutral",
+          "strength": 0.0
+        },
+        {
+          "tea_id": "9278958480",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "9378917904",
+          "verdict": "disliked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "9378917264",
+          "verdict": "liked",
+          "strength": 1.0
+        },
+        {
+          "tea_id": "9378918288",
+          "verdict": "neutral",
+          "strength": 0.0
+        },
+        {
+          "tea_id": "9378916880",
+          "verdict": "liked",
+          "strength": 2.0
+        },
+        {
+          "tea_id": "3979674517613",
+          "verdict": "neutral",
+          "strength": 0.0
+        }
+      ],
+      "recommendations": [
+        {
+          "rank": 1,
+          "tea_id": "1413593792621",
+          "title": "Darjeeling Namring « Tippy Muscatel » 2nd Flush",
+          "class": "black",
+          "score": 0.66079456,
+          "positive_similarity": 0.80415833,
+          "negative_similarity": 0.57345515
+        },
+        {
+          "rank": 2,
+          "tea_id": "3812581572717",
+          "title": "Da Xue Shan Hong Cha",
+          "class": "black",
+          "score": 0.64918453,
+          "positive_similarity": 0.78261852,
+          "negative_similarity": 0.53373599
+        },
+        {
+          "rank": 3,
+          "tea_id": "1317670355053",
+          "title": "Shan Lin Shi",
+          "class": "oolong",
+          "score": 0.64771259,
+          "positive_similarity": 0.8220036,
+          "negative_similarity": 0.69716406
+        }
+      ]
+    }
+  ]
+}

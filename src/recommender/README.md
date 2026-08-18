@@ -154,8 +154,23 @@ To make disliked teas count less strongly:
 uv run scripts/recommend.py --negative-weight 0.1
 ```
 
-The default negative weight is `0.25`. It's deliberately cautious because the
-current history contains only one disliked tea.
+The default negative weight is `0.25`.
+
+## Export the blog visualization data
+
+The interactive Three.js visuals in the third HDC blog post consume a portable
+JSON artifact generated from the same catalogue, tasting history, prototype
+updates, and ranking implementation used by the recommender:
+
+```bash
+uv run scripts/export_recommender_visualization.py
+```
+
+The exporter captures the learner after 5, 10, and 15 tastings, fits one shared
+three-dimensional PCA projection for display, and writes
+`src/recommender/visualizer/output/tea-recommender-3d.json`. Recommendations are
+still calculated from the original 10,000-dimensional hypervectors. This
+repository generates the data only; it does not contain the Three.js renderer.
 
 ## Files in this folder
 
@@ -163,6 +178,7 @@ current history contains only one disliked tea.
 - `catalog.py` loads the existing tea hypervectors and matches them to tasting rows.
 - `prototype.py` updates the positive and negative summaries.
 - `ranking.py` scores untried teas and returns the best matches.
+- `visualizer/` builds the portable JSON data used by the blog visualizations.
 
 The dependency flows in one direction: this package reads the encoded tea
 catalog, while the encoder does not know anything about personal preferences.
