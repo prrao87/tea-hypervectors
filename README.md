@@ -4,8 +4,8 @@ Source code for a series of blog posts that explore concepts in Hyperdimensional
 
 1. [How a Taiwanese Oolong changed the way I look at tea](https://thedataquarry.com/blog/how-a-taiwanese-oolong-changed-the-way-i-look-at-tea/)
 2. [Hyperdimensional Computing (1): The algebra of hypervectors](https://thedataquarry.com/blog/hyperdimensional-computing-1/)
-3. [https://thedataquarry.com/blog/hyperdimensional-computing-2/](https://thedataquarry.com/blog/hyperdimensional-computing-2/)
-1. Machine learning in HDC and building a tea recommender: coming soon...
+3. [Hyperdimensional Computing (2): Building an encoder](https://thedataquarry.com/blog/hyperdimensional-computing-2/)
+4. [Hyperdimensional Computing (3): From representation to online learning](https://thedataquarry.com/blog/hyperdimensional-computing-3/)
 
 ## Tea, encoded as hypervectors
 
